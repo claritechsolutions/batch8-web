@@ -29,7 +29,8 @@
                     <i class="bi bi-three-dots-vertical"></i>
                 </button>
                 <!-- Sidebar Trigger -->
-                <a href="/Projects/Admin Dashboard Project/Email-Center.html" class="nav-link text-white" style="font-size: medium;">
+                <a href="/Projects/Admin Dashboard Project/Email-Center.html" class="nav-link text-white"
+                    style="font-size: medium;">
                     <span>Email Center</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,22 +47,27 @@
                     </form>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="dropdown">
-                            <a class="nav-link" href="#" role="button"
-                                data-bs-toggle="dropdown">
-                                <img src="assets/images/userImg.jpg" height = 36px; class="rounded-circle" alt="">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                <img src="assets/images/userImg.jpg" height=36px; class="rounded-circle" alt="">
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end my-3">
                                 <li class="dropdown-header">
                                     <strong>ADMINISTRATOR</strong>
                                 </li>
-                                <li><a class="dropdown-item sidebar-link" href="/Projects/Admin Dashboard Project/Email-Center.html">Inbox <span class="ms-auto">
+                                <li><a class="dropdown-item sidebar-link"
+                                        href="/Projects/Admin Dashboard Project/Email-Center.html">Inbox <span
+                                            class="ms-auto">
                                             <i class="fa-solid fa-inbox"></i>
                                         </span></a></li>
-                                <li><a class="dropdown-item sidebar-link" href="/Projects/Admin Dashboard Project/Social-Net.html">Profile<span class="ms-auto">
+                                <li><a class="dropdown-item sidebar-link"
+                                        href="/Projects/Admin Dashboard Project/Social-Net.html">Profile<span
+                                            class="ms-auto">
                                             <i class="fa-solid fa-square-pen"></i>
                                         </span></a></li>
                                 <li>
-                                <li><a class="dropdown-item sidebar-link" href="/Projects/Admin Dashboard Project/Media-Box.html">Media Manager<span class="ms-auto">
+                                <li><a class="dropdown-item sidebar-link"
+                                        href="/Projects/Admin Dashboard Project/Media-Box.html">Media Manager<span
+                                            class="ms-auto">
                                             <i class="fa-regular fa-image"></i>
                                         </span></a></li>
                                 <li>
@@ -72,7 +78,7 @@
                                         </span></a></li>
                                 <li>
                                 <li><a class="dropdown-item sidebar-link" href="#">Lock Account<span class="ms-auto">
-                                    <i class="fa-solid fa-lock"></i>
+                                            <i class="fa-solid fa-lock"></i>
                                         </span></a></li>
                                 <li>
                                 <li><a class="dropdown-item sidebar-link" href="#">Logout<span class="ms-auto">
@@ -91,7 +97,8 @@
     <section>
         <div class="offcanvas offcanvas-start sidebar-nav bg-dark text-white" tabindex="-1" id="sidebarMenu">
             <div class="p-2 bg-danger" style="height: var(--topNavbarHeight);">
-                <a class="navbar-brand fw-bold text-white me-auto m-0 p-0" href="/Projects/Admin Dashboard Project/index.html"><span><img src="assets/images/Logo.png" alt=""
+                <a class="navbar-brand fw-bold text-white me-auto m-0 p-0"
+                    href="/Projects/Admin Dashboard Project/index.html"><span><img src="assets/images/Logo.png" alt=""
                             style="height: 40px;"></span><span class="p-2">Random
                         Dragon</span></span></a>
 
@@ -633,11 +640,539 @@
     </section>
     <!-- Sidebar Menu -->
 
-<!-- mainBody -->
-<main class="mt-5 pt-3">
-    
-</main>
-<!-- mainBody -->
+    <!-- mainBody -->
+    <main class="mt-5 pt-3">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-md-3 nav-item mb-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        <span><i class="fa-regular fa-image"></i></span>
+                        <span>Compose Message</span>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row h-100">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#contentSidebar" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    Navigation
+                                </button>
+                                <div class="collapse navbar-collapse" id="contentSidebar">
+                                    <ul class="navbar-nav me-auto mb-2 d-flex flex-column">
+
+                                        <li>
+                                            <button
+                                                onclick="document.location='/Projects/Admin Dashboard Project/Email-Center.html'"
+                                                class="btn btn-primary"> HTML Tutorial</button>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="sidebar-link px-3 m-1">
+                                                <small><strong>78 GB</strong> / 100 GB</small>
+                                                <span class="ms-auto">
+                                                    <a href="#" class="text-muted"><i class="fa fa-plus"></i></a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-3">
+                                                <span>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </span>
+                                                <span>E-Store</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <section class="col-12 col-md-9">
+                    <div class="card">
+                        <div class="card-header">
+                            Featured
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li class="list-group-item d-flex flex-row">
+                                <span class="td-label td-label-muted text-center">
+                                    <label class="csscheckbox csscheckbox-primary"><input
+                                            type="checkbox"><span></span></label>
+                                </span>
+                                <span class="text-center">
+                                    <img src="/Projects/Admin Dashboard Project/assets/images/userImg.jpg" alt="avatar"
+                                        class="img-circle">
+                                </span>
+                                <span class="d-flex flex-column">
+                                    <h4>
+                                        <a href="#" class="text-dark"><strong>Product
+                                                updates</strong></a>
+                                    </h4>
+                                    <span class="text-muted">This is the preview text of this message..</span>
+                                </span>
+                                <span class="hidden-xs text-center">
+                                    <i class="fa fa-paperclip fa-2x text-muted"></i>
+                                </span>
+                                <span class="hidden-xs text-right text-muted"><em>just now</em></span>
+                            </li>
+                            <li>
+                                <div class="col-sm-4 col-lg-3" style="display: block;">
+                                    <div class="media-items animation-fadeInQuick2" data-category="zip">
+                                    <div class="media-items-options text-right">
+                                    <a href="javascript:void(0)" class="btn btn-xs btn-success"><i class="fa fa-pencil"></i></a>
+                                    <a href="javascript:void(0)" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                    </div>
+                                    <div class="media-items-content">
+                                    <i class="fa fa-file-archive-o fa-5x text-muted"></i>
+                                    </div>
+                                    <h4>
+                                    <strong>Project</strong>.zip<br>
+                                    <small>3 hours ago, 3.2MB</small>
+                                    </h4>
+                                    </div>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- mainBody -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
