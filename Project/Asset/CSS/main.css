@@ -97,3 +97,12 @@ body {
 .foot-part {
     color: #fff;
 }
+
+.btn-three {
+    color: #fff;
+    background-color: black;
+}
+
+.btn-three:hover {
+    background-color: maroon;
+}
