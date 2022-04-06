@@ -18,24 +18,27 @@
     background-color: black;
     opacity: 0.5;
 }
-@media only screen and (min-width:324px) and (max-width:425px){
+@media only screen and  (min-width:320px) and (max-width:425px){
+	
 	.size{
 		font-size: 50px;
 		font-family: sans-serif;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 	}
+
+
 }
 
 .text-custom {
     margin-top: 100px;
     margin-bottom: auto;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 .size{
     font-size: 50px;
     font-family: sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .wrapper{
 	display: inline-flex;
