@@ -1,16 +1,6 @@
 body {
     margin: 0;
     font-family: "Open Sans",sans-serif;
-    /* font-size: .9375rem; */
-    /* font-weight: 300; */
-    /* line-height: 1.9; */
-    /* color: #757575; */
-    /* text-align: left; */
-    background-color: #fff;
-    /* layout */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .firstPagebackImage {
@@ -45,6 +35,12 @@ body {
     }
  } 
 
+ @media (min-width: 768px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+ }
 .msgButton {
     z-index: 1;
 } 
