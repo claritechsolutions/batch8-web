@@ -17,7 +17,7 @@
                                 }
                                 #nav-wrap .main-menu .nav-img img {
                                     padding: 10px 0;
-                                    width: 59%;
+                                    /* width: 101%; */
                                     margin-right: -5rem;
                                     margin-top: -17px;
                                 }
@@ -101,6 +101,11 @@
                                     z-index: 1;
                                     transform: translate(15px, -193px);
                                 }
+                            }
+                            
+                            #page-title-contactUs {
+                                background: rgba(0, 0, 0, 0.8) url(/uniAlumini/assets/images/contact-us.jpg);
+                                padding: 200px 0px;
                             }
                             
                             @media only screen and (width: 425px) {

@@ -48,15 +48,19 @@
         <div class="main-menu">
             <div class="container">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-white fs-3">
-                        <div class="col-4">
-                            <a class="navbar-brand nav-img" href="#"><img src="/uniAlumini/assets/images/unialumini.png" alt=""></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="col-4">
+                        <nav class="navbar navbar-light">
+                            <a class="navbar-brand nav-img" href="/uniAlumini/index.html">
+                                <img src="/uniAlumini/assets/images/unialumini.png" alt="" class="img-fluid">
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="col-8">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                        </div>
-
-                        <div class="col-8">
                             <div class="collapse navbar-collapse fs-5 fw-bold py-2" id="navbarNavDropdown">
                                 <ul class="navbar-nav nav-text-wrap">
                                     <li class="nav-item active me-3">
@@ -73,8 +77,8 @@
                                     </li>
                                     <li class="nav-item dropdown me-3">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-hover="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Blog
-                                        </a>
+                                        Blog
+                                    </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a class="dropdown-item" href="#">Action</a>
                                             <a class="dropdown-item" href="#">Another action</a>
@@ -83,8 +87,8 @@
                                     </li>
                                     <li class="nav-item dropdown me-3">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Pages
-                                        </a>
+                                        Pages
+                                    </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a class="dropdown-item" href="#">Action</a>
                                             <a class="dropdown-item" href="#">Another action</a>
@@ -96,11 +100,10 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <section id="page-title-contactUs">
@@ -109,8 +112,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-sm-12 col-8 m-auto text-center mt-5">
                         <h1 class="card-title display-1 fw-bolder">Contact Us</h1>
-                        <p class="card-text ">Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p>
-                        <button class="btn-primary py-2 px-5">Lets See</button>
+                        <p class="card-text mb-3 mt-3 mb-4">Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p>
+                        <!-- <button class="btn-primary py-2 px-5">Lets See</button> -->
+                        <a href="#" class="btn-primary py-2 px-4 text-decoration-none fs-4 fw-bold btn-contact-wrap">Lets see</a>
                     </div>
                 </div>
             </div>
@@ -122,28 +126,33 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="map-wrap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245619.67821522866!2d74.5084405!3d15.866713100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f5095362f%3A0x7e34b31edcdefb5f!2sBelagavi%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1646980986439!5m2!1sen!2sin"
-                                allowfullscreen="" loading="lazy"></iframe>
+                            <div class="ratio ratio-4x3">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245619.67821522866!2d74.5084405!3d15.866713100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f5095362f%3A0x7e34b31edcdefb5f!2sBelagavi%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1646980986439!5m2!1sen!2sin"
+                                    title="Google map" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <p class="fs-3 fw-bold">Send Message</p>
-                        <form action="#" class="m-auto form-innner ">
-                            <label for="name" class="d-block">Name</label>
-                            <input type="text" name="name" id="name">
-                            <label for="email" class="d-block mt-4">Email</label>
-                            <input type="email" name="" id="">
-                            <label for="subject" class="d-block mt-4">Subject</label>
-                            <input type="text" name="subject" id="subject">
-                            <label for="message" class="d-block  mt-4">Message</label>
-                            <textarea name="message" id="message" cols="60" rows="5" class="d-block"></textarea>
-                            <input type="checkbox" name="cc" id="cc" class="">
-                            <label for="cc">Send me CC</label>
-                            <input type="button" value="Send" class="d-block">
-                        </form>
+                        <div class="contact-form-wrap">
+                            <p class="fs-3 fw-bold">Send Message</p>
+                            <form action="#" class="m-auto form-innner ">
+                                <label for="name" class="d-block">Name</label>
+                                <input type="text" name="name" id="name">
+                                <label for="email" class="d-block mt-4">Email</label>
+                                <input type="email" name="" id="">
+                                <label for="subject" class="d-block mt-4">Subject</label>
+                                <input type="text" name="subject" id="subject">
+                                <label for="message" class="d-block  mt-4">Message</label>
+                                <textarea name="message" id="message" cols="60" rows="5" class="d-block"></textarea>
+                                <input type="checkbox" name="cc" id="cc" class="">
+                                <label for="cc">Send me CC</label>
+                                <input type="button" value="Send" class="d-block">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Contact Us Footer -->

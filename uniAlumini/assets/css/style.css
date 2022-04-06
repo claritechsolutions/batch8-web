@@ -30,14 +30,25 @@ a.can-btn:hover {
     margin-right: 10px;
 }
 
+a.navbar-brand.nav-img {
+    width: 17rem;
+    height: 5rem;
+}
+
+
+/* .nav-text-wrap li:active {
+    background: #dbe5f3;
+} */
+
+
+/* .logo-img-wrap {
+    width: 21vw;
+    height: 18vh;
+} */
+
 .nav-text-wrap ul,
 li {
     font-size: 2rem;
-}
-
-.main-menu {
-    position: sticky;
-    top: 0;
 }
 
 
@@ -293,13 +304,12 @@ li {
 /* Contact Us page */
 
 #page-title-contactUs {
-    background-image: url(/uniAlumini/assets/images/contact-us.jpg);
+    background: rgba(0, 0, 0, 0.8) url(/uniAlumini/assets/images/contact-us.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
+    background-blend-mode: darken;
     padding: 177px 0px;
-    background-color: black;
-    opacity: 0.5;
 }
 
 .form-innner input[type="text"],
@@ -313,5 +323,5 @@ input[type="email"] {
 
 .map-wrap iframe {
     width: 500px;
-    height: 550px;
+    height: 491px;
 }
