@@ -66,6 +66,11 @@ li a {
     max-width: 100%;
     height: auto;
 }
+.card-img-top{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .logo {
     float: left;
     width: 100%;
