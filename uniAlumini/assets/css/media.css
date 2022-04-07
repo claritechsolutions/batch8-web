@@ -108,6 +108,10 @@
                                 padding: 200px 0px;
                             }
                             
+                            .small-respo {
+                                display: none;
+                            }
+                            
                             @media only screen and (width: 425px) {
                                 .img-thumb {
                                     transform: translate(52px, -654px);

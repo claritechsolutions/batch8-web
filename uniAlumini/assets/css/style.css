@@ -35,6 +35,10 @@ a.navbar-brand.nav-img {
     height: 5rem;
 }
 
+.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
 
 /* .nav-text-wrap li:active {
     background: #dbe5f3;
@@ -321,7 +325,8 @@ input[type="email"] {
     box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
 }
 
-.map-wrap iframe {
+
+/* .map-wrap iframe {
     width: 500px;
     height: 491px;
-}
+} */

@@ -47,7 +47,7 @@
     <section id="nav-wrap">
         <div class="main-menu">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-4">
                         <nav class="navbar navbar-light">
                             <a class="navbar-brand nav-img" href="/uniAlumini/index.html">
@@ -156,8 +156,7 @@
                                 <div class="card-img-overlay slider-text-wrap">
                                     <div class="container-fluid">
                                         <div class="row">
-                                            <div class="col-1 d-lg-block d-sm-none d-xs-none">
-                                                <!-- <div class="vertical-menu-wrap"> -->
+                                            <div class="col-1 d-lg-block small-respo">
                                                 <a href="https://www.facebook.com/" target="_blank ">
                                                     <i class="fa-2x fa-brands fa-facebook-square me-3 text-white py-4"></i>
                                                 </a>
@@ -168,8 +167,6 @@
                                                     <i class="fa-2x fa-brands fa-linkedin me-3 text-white py-4"></i>
                                                 </a>
                                             </div>
-                                            <!-- </div>
-                                        </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -448,17 +445,41 @@
                 <div class="gallary-menu text-center ">
                     <div class="row ">
                         <div class="col-12">
-                            <button class="active gallery-btn ">All</button>
-                            <button class="gallery-btn ">Old Memories</button>
-                            <button class="gallery-btn ">Event</button>
-                            <button class="gallery-btn ">Our picnic</button>
-                            <button class="gallery-btn ">recent</button>
+                            <button class="active gallery-btn" data-filter="*">All</button>
+                            <button class="gallery-btn" data-filter="#old">Old Memories</button>
+                            <!-- <a href="#old"> old memories</a> -->
+                            <button class="gallery-btn" data-filter="event">Event</button>
+                            <button class="gallery-btn" data-filter="picnic">Our picnic</button>
+                            <button class="gallery-btn" data-filter="recent">recent</button>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-image-wrap ">
                     <div class="container ">
-                        <div class="row ">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 recent">
+                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row ">
                             <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
                                 <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
                             </div>
@@ -483,10 +504,10 @@
                             <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
                                 <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
                             </div>
-                        </div>
-                    </div>
+                        </div> -->
                 </div>
             </div>
+        </div>
         </div>
 
     </section>
@@ -585,7 +606,7 @@
     </section>
     <!-- Script data -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-carousel/1.5.8/responsive-carousel.js" integrity="sha512-MDVInyMjHMZTf3k3prBszSP2bj5/xE5YTPKC8+wnCBLuHI9RiHvU7lFtsK37WGnGI1JITf6q2kuDlfVagongNw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-carousel/1.5.8/responsive-carousel.js" integrity="sha512-MDVInyMjHMZTf3k3prBszSP2bj5/xE5YTPKC8+wnCBLuHI9RiHvU7lFtsK37WGnGI1JITf6q2kuDlfVagongNw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
