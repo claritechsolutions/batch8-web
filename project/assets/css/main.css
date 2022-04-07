@@ -1,0 +1,274 @@
+#header .text2 {
+    text-align: right;}
+
+.bg {
+    background-image: url('/assets/image/bk.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 690px;}
+
+#content .text-wrap {padding: 174px;
+    text-align: center;}
+
+#content h2 {color: white;
+    font-size: 2rem;}
+
+#content h1 {color: yellow;}
+
+#content .info {color: aliceblue;
+    font-size: 30px;}
+.icon {font-size: 30px;}
+#content .theme-btn:hover {
+    color: green;
+    border-color: white;
+    background-color: green;
+}
+.heading {
+    color: green;
+}
+
+.right-content {
+    float: right;
+    position: relative;
+    padding: -17px;
+    margin: -106px;
+    right: 16px;
+
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    font-size: 15px;
+
+}
+
+.dropdown-item {
+    padding: 0px;
+}
+
+.size {
+    border: 2px solid black;
+    border-radius: 5px;
+    /* height: 49px; */
+    width: 120px;
+    margin: 10px;
+}
+
+.format {
+    padding: 32px;
+
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    width: 131px;
+    margin: 10px;
+}
+
+#about .resize {
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.format:hover {
+    background-color: greenyellow;
+}
+
+.bg1 {
+    background-image: url(/assets/image/tree.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.back {
+    background-image: url(/assets/image/buisness.jpg);
+    height: 310px;
+}
+
+.align {
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    color: aqua;
+
+}
+
+.color {
+    color: white;
+}
+
+
+
+.btn-style-one {
+    position: relative;
+    padding: 10px 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #1675A8;
+    color: #ffffff !important;
+    border: 2px solid #1675A8;
+
+    font-weight: 600;
+    border-radius: 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+.icon-size {
+    padding: 0px;
+    font-size: 120px;
+    text-align: center;
+    color: black;
+}
+
+.title {
+    color: blue;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.icon-size:hover {
+    color: green;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+.card-custom {
+    margin-bottom: 30px;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.write {
+    color: green;
+    text-align: center;
+}
+
+.textt {
+    color: white;
+    text-align: center;
+}
+
+.list li {
+    color: green;
+}
+
+.containt {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 40px;
+}
+
+.accformat {
+    background-color: black;
+}
+
+.handshake {
+    background-image: url(/assets/image/handshake.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 28px;
+}
+
+.iconformat {
+    font-size: 70px;
+    color: white;
+}
+
+.textformat {
+    color: white;
+    font-size: 30px;
+}
+
+.subtext {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.tr {
+    padding-top: 28px;
+    margin-left: 8px;
+}
+
+.itemsalign {
+    text-align: center;
+}
+
+.iconformat:hover {
+    color: green;
+}
+
+.about-data {
+    text-align: center;
+}
+
+.about-data h1:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 40px;
+    border-bottom: 3px solid #1675A8;
+    right: 0;
+    margin: auto;
+}
+
+.imgceo {
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.imgfor {
+    text-align: center;
+    justify-content: center;
+}
+
+.post {
+    color: grey;
+}
+
+/* .img1{background-image: url(/assets/image/blog-image-1.jpg);
+            height: 328px;
+    width: 550px;
+    margin: 7px;
+   
+        }
+        .img2{background-image: url(/assets/image/blog-image-2.jpg);
+            height: 328px;
+    width: 550px;
+    margin: 7px;
+        }
+        .img3{background-image: url(/assets/image/blog-image-3.jpg);
+            height: 328px;
+    width: 550px;
+    margin: 7px;
+        } */
+.imgsize {
+    height: 328px;
+    width: 550px;
+    margin: 7px;
+}
+
+.inst {
+    color: green;
+}
