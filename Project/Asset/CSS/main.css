@@ -109,3 +109,41 @@ body {
 .btn-three:hover {
     background-color: maroon;
 }
+
+.abc {
+    background: url(../images/about.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    height: 25rem;
+}
+
+.kpg {
+    padding: 10rem 0 9.375rem;
+}
+
+.kpg h1 {
+    font-size: 48px;
+}
+
+.kpg p {
+    font-size: 20px;
+}
+
+.img-food {
+    background: url(../images/img-food.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    height: 25rem;
+}
+
+.kk {
+    text-align: center;
+
+}
+
+.kk a {
+    text-decoration: none;
+    color: #fff;
+}
