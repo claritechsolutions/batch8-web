@@ -1,18 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Dancing+Script&family=Exo+2:wght@100&family=Inspiration&family=Nunito+Sans:wght@200&display=swap');
+
 body{
     background-color: #f4f4f4;
     color: #111118;
-    font-size: 16px;
     line-height: 1.5;
+    font-family:'Dancing Script', cursive;
+
 }
-.nav-img .caption{
-    position: absolute;
-    top: 0;
-    text-align: center;
-    margin-left: 25rem;
-    padding: 100px;
-    color:rgb(25, 52, 225);
+.nav-img
+{
+background-attachment: scroll;
+background: linear-gradient(rgba(213, 148, 230, 0.6), rgba(135, 158, 207, 0.6)),
+url(/Bootstrap/Project/assets/image/page-head-2.jpg) fixed center center;
+background-size: cover;
+height: 500px;
+width: 100%;
+font-family: 'Alfa Slab One', cursive;
 }
 
+.nav-img .navbar-toggler-icon{
+    background-color: white;
+}
+
+.nav-img .navbar-nav a{
+    color:white !important;
+    font-size: 20px;
+    }
+
+.room-details .text-block{
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
 .room-details .breadcrumb a{
     text-decoration: none;
     color: black;
@@ -23,34 +45,39 @@ body{
 }
 
 .room-details .room-icon i{
-    border: 1px solid gray;
+    border: 1px solid rgb(72, 77, 205);
     border-radius: 50%;
     padding: 10px;
-    font-size: 16px;
     margin-right: 10px;
     color: black;
 
 }
-
-.room-details .row {
-    display: table;
-    
-
+.room-details .row{
+    margin-left:20px ;
+    margin-right:20px ;
 }
+/* .footer .list-group-item{
+    background-color:black; 
+    color:white ; 
+    border: 2px solid rgb(210, 154, 236);
+} */
 
-.room-details .img-block{
-    padding: 30px;
-}
 
-.room-details [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
+/* @media screen and (max-width: 320px) {
+    .room-details .font-check{
+        font-size: 5px;
+    }
+    .room-details .room-icon i{
+        font-size: 5px;
+    }
+    .room-details h2{
+        font-size: 5px;
+    }
+} */
 
-.room-details .text-block{
-    padding: 30px;
-    line-height: 2.5rem;
-    font-size: 20px;
-} 
 
+
+
+ 
+  
+ 
