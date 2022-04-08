@@ -23,11 +23,14 @@ a.can-btn:hover {
 
 .nav-text-wrap a:hover {
     background: #dbe5f3;
-    padding: 2.1rem 0.6rem;
+    /* padding: 2.1rem 0.6rem; */
     border-bottom: 0.4rem solid rgb(32, 32, 91);
-    margin-block-end: -16px;
+    /* margin-block-end: -16px;
     margin-block-start: -16px;
-    margin-right: 10px;
+    margin-right: 10px; */
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(32, 32, 91);
+    border-radius: 15px;
 }
 
 a.navbar-brand.nav-img {
@@ -330,3 +333,8 @@ input[type="email"] {
     width: 500px;
     height: 491px;
 } */
+
+.modal-content {
+    background-color: #0e2342;
+    opacity: 0.9;
+}

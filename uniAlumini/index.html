@@ -29,15 +29,78 @@
                             <a href="tel:+8804545477" class="text-white text-decoration-none">8804545477</a>
                         </div>
                     </div>
+                    <!-- Buttons login And Signup -->
                     <div class="col-lg-6 col-sm-12 col-xl-6 col-md-6 col-12 text-right">
                         <div class="right-header d-flex justify-content-end me-2 text-size">
-                            <a href="#" class=" btn-auth bg-primary btn-cust-style-head text-white text-decoration-none">Login</a>
-                            <a href="#" class="btn-auth bg-success btn-cust-style-head text-white ms-3 text-decoration-none">Signup</a>
+                            <a href="#" class=" btn-auth bg-primary btn-cust-style-head text-white text-decoration-none" data-toggle="modal" data-target="#loginForm">Login</a>
+                            <a href="#" class="btn-auth bg-success btn-cust-style-head text-white ms-3 text-decoration-none" data-toggle="modal" data-target="#signupForm">Signup</a>
                         </div>
-                        <!-- <div class="col-md-6 btn-group">
-                        <button type="button" class="btn-primary py-1 float-right">Login</button>
-                        <button type="button" class="btn-success py-1 float-right">Signup</button>
-                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal login-->
+        <div class="modal fade" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bg-warning">
+                    <div class="modal-header m-auto">
+                        <h5 class="modal-title fs-4 fw-bold" id="loginModal">Login Here</h5>
+                    </div>
+                    <div class="modal-body fw-bold">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="log-email">Email address</label>
+                                <input type="email" class="form-control" id="log-email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="log-Password">Password</label>
+                                <input type="password" class="form-control" id="log-Password" placeholder="Password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                            <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal signup -->
+        <div class="modal fade" id="signupForm" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content text-white fs-6">
+                    <div class="modal-header m-auto">
+                        <h5 class="modal-title fs-4 fw-bold" id="signupModal">Registration Form</h5>
+                    </div>
+                    <div class="modal-body fw-bold">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="name">Gender</label>
+                                <input type="radio" name="gender" id="male">male
+                                <input type="radio" name="gender" id="female">Female
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="branch">Education</label>
+                                <select name="branch" class="form-control" id="branch">
+                                    <option value="cs">Computer Science</option>
+                                    <option value="ETC">Electronics</option>
+                                    <option value="auto">Automobile</option>
+                                    <option value="mech">Mechanical</option>
+                                </select>
+                            </div>
+                            <div class="form-group mt-2">
+                                <label for="log-email">Email address</label>
+                                <input type="email" class="form-control" id="log-email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="log-Password">Password</label>
+                                <input type="password" class="form-control" id="log-Password" placeholder="Password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                            <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Cancel</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -145,7 +208,7 @@
                                                 <h2 class="py-3 ">Student of <span class="text-warning ">Oxfornt
                                             University</span></h2>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci repellat magni, quibusdam delectus consequatur ipsa dolor earum doloremque alias? Neque.</p>
-                                                <a href="# " class="btn right-btn">Our Mission</a>
+                                                <a href="#abt-wrap" class="btn right-btn">Our Mission</a>
                                                 <a href="# " class="btn right-btn">Our Story</a>
                                             </div>
                                         </div>
@@ -551,7 +614,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- <section id="gallery-data">
