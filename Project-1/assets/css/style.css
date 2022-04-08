@@ -1,0 +1,152 @@
+body{
+    margin: 10px;
+}
+.nav-bar{
+    background-color: white;
+    font-weight: 500;
+}
+.react-logo{
+    font-size: 30px;
+    color: blue;
+}
+.nav-wrap{
+}
+.nav-wrap ul{
+    display: flex;  
+}
+.nav-wrap li {
+    display: inline-flex; 
+}
+.nav-wrap a{
+    width: 80px;
+    color: black;
+    text-decoration: none;
+}
+.nav-wrap-1 a{
+    width: 80px;
+    color: black;
+    text-decoration: none;
+}
+.img-wrap-1{
+    height: 315px;
+}
+
+.card-wrap :hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.Service-wrap{
+    border-radius: 10px;
+    border-top: 2px black solid;
+    border-bottom: 0.5px black solid;
+}
+.icon :hover{
+    color: blue;
+    border-top: blue;
+}
+
+
+.Project-1{
+    background-color: rgb(99, 99, 212);
+}
+.tick{
+    color: brown;
+}
+
+.pr-img-01{
+    font-size: 20px;
+    color: gray;
+}
+.pr-bt button{
+    background-color:#ff9100;
+    border-radius: 5px;
+
+}
+.content-wrap{
+    height: 200px;
+}
+
+
+
+
+.services{
+    background-color: rgb(238, 234, 234);
+}
+.Read-more a{
+    text-decoration: none;
+}
+.button-14 button{
+    background-color: #ff9100;
+    border-radius: 8px;
+}
+.icon{
+    font-size: 60px;
+}
+.image-1 img{
+    border-radius: 80%;
+}
+.cust-icon{
+    font-size: 30px;
+    color: rgb(87, 87, 214);
+}
+.trial{
+    background-color: rgb(99, 99, 212);
+    color: aliceblue;
+}
+.button {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.plan-choose button{
+    background-color: #ff9100;
+    border-radius: 10px;
+}
+
+
+
+
+input{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color:#dfd4d414;
+}
+.tele-bt button{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+.footer{
+    color: aliceblue;
+}
+.plan-card{
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:aliceblue;
+}
+.plan-card-1{
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.about-us button{
+    background-color: #ff9100;
+    border-radius: 5px;
+    width: 100px;
+}
+.contact i{
+    color: #ff9100;
+}
+

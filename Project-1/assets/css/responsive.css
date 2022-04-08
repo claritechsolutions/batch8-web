@@ -1,0 +1,20 @@
+/* extra small device */
+@media(min-width:320px){
+
+}
+/* mobile and mobile landscape */
+@media(min-width:576px){
+    
+}
+/* tab view */
+@media(min-width:768px){
+    
+}
+/* mini laptop */
+@media(min-width:992px){
+
+}
+/* laptop and above screen */
+@media(min-width:1200px ){
+    
+}
