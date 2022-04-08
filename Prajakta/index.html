@@ -15,8 +15,9 @@
 </head>
 
 <body>
+  <!-- header-section -->
   <section>
-    <header>
+    <header class="bg-dark ">
       <div class="first-bar py-2">
         <div class="container">
           <div class="row">
@@ -34,9 +35,6 @@
               <div class="social-site text-end">
                 <a href="#" class="">
                   <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#" class="px-2">
-                  <i class="fa-solid fa-message-lines"></i>
                 </a>
                 <a href="#" class="px-2">
                   <i class="fa-brands fa-linkedin-in"></i>
@@ -62,25 +60,29 @@
       </div>
 
     </header>
-    <header class="header">
+  </section>
+  <!-- navigation-bar -->
+  <section class="bg-dark">
+    <navbar>
       <div class="container">
         <div class="row">
           <div class="col-md-4 ">
             <img src="image/logo-light.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-8">
-            <ul id="menu" class="float-md-right text-center">
-              <li><a href=""> <i class="fa-solid fa-house-chimney text-cente me-2"></i>HOME</a></li>
-              <li><a href=""><i class="fa-solid fa-file-lines text-cente me-2"></i>PAGES</a></li>
-              <li><a href="">PORTFOLIO</a></li>
-              <li><a href="">BLOG</a></li>
-              <li> <button class="btn">DONATE </button></li>
+            <ul id="menu" class="float-md-right text-center ">
+              <li><a href=""class="text-white text-decoration-none pt-3"> <i class="fa-solid fa-house-chimney text-cente ms-2 text-white"></i>HOME</a></li>
+              <li class="me-2 "><a href="" class="text-white text-decoration-none"><i class=" text-decoration-none fa-solid fa-file-lines text-cente ms-2 text-white"></i>PAGES</a></li>
+              <li class="me-2 text-white"><a href=""class="text-white text-decoration-none" >PORTFOLIO</a></li>
+              <li class="me-2 text-white"><a href=""class="text-white text-decoration-none" >BLOG</a></li>
+              <li class="me-2 text-white bg-warning "> <button class="btn">DONATE </button></li>
             </ul>
-          </div>
+          </div> 
         </div>
       </div>
-    </header>
+    </navbar>
   </section>
+  <!-- Carousel section -->
   <section>
 
     <div id="carouselExampleControls" class="carousel slide">
@@ -88,11 +90,11 @@
         <div class="carousel-item active">
           <img src="image/slider-1.jpg" class="img-fluid d-block w-100">
           <div class="carousel-captoin d-none d-md-block">
-            <div class="carousel-caption d-none d-md-block head">
-              <h1 class="title ">Together</h1>
-              <h1 class="mean ">We can heal</h1>
-              <h1 class="end">The Earth</h1>
-              <button class="btn">LEARN MORE</button>
+            <div class="carousel-caption d-none d-md-block head px-4">
+              <h1 class="title">Together</h1>
+              <h1 class="mean text-white">We can heal</h1>
+              <h1 class="end text-white ">The Earth</h1>
+              <button class="bg-warning text-white border-white py-2 mx-1">LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -104,7 +106,7 @@
             <div class="carousel-caption d-none d-md-block head">
               <h1 class="help">Help us</h1>
               <h1 class="save">SAVE ANIMALS</h1>
-              <button class="btn">LEARN MORE</button>
+              <button class="bg-warning text-white border-white py-2 mx-1">LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -267,7 +269,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6 col-12 col-md-12 col-lg-6">
-          <img src="image/slider-2.jpg" height="500" width="600">
+          <img src="image/slider-2.jpg" class="img-fluid slide">
         </div>
         <div class="col-6 col-12 col-md-12 col-lg-6">
           <div class="list-with-icon-content mb-3">
@@ -316,10 +318,10 @@
     <div class="tital-wrapper height=500 width=400">
       <div class="container">
         <div class="row">
-          <div class="col-12 ">
+          <div class="col-12 aline-md-center ">
             <form class="sub-form">
               <h3 class="newsletter-head text-center">Subscribe To Newsletter </h3>
-              <input class="newsletter-email" type="email" name="ne" size="30" required=""
+              <input class="newsletter-email ms-5 mr-5" type="email" name="ne" size="30" required=""
                 placeholder="Please fill your email" class="text-left">
               <input class="newsletter-submit-button " type="submit" value="Subscribe!">
 
@@ -358,7 +360,7 @@
     <div class="container">
       <div class="row card-layout">
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="image/icon-4.png" class="img img-fluid" alt="" width="80" height="80">
+          <img src="image/icon-4.png" class="img img-fluid" alt="" >
           <div class="card-body">
             <div class="card-text-next">
               1000,000 </div>
@@ -366,7 +368,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="image/icon-5.png" class="img img-fluid" alt="" width="80" height="80">
+          <img src="image/icon-5.png" class="img-fluid" alt="">
           <div class="card-body">
             <div class="card-text-next">
               700 </div>
@@ -374,7 +376,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="image/icon-1.1.png" class="img img-fluid" alt="" width="80" height="80">
+          <img src="image/icon-1.1.png" class="img-fluid" alt="">
           <div class="card-body">
             <div class="card-text-next">
               99.99% </div>
@@ -382,11 +384,11 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="image/icon-1.2.png" class="img img-fluid" alt="" width="80" height="80">
+          <img src="image/icon-1.2.png" class="img-fluid" alt="">
           <div class="card-body">
             <div class="card-text-next">
               200MW </div>
-            <h4 class="card-menu">SOLAR POWER</h4>
+            <h4 class="card-menu ">SOLAR POWER</h4>
           </div>
         </div>
         <hr>
@@ -394,10 +396,10 @@
         <h6 class="sub-act">Praesent commodo cursus magna, vel scelerisque nislet.</h6>
         <div class="row">
           <div class="col-12">
-            <div class="mid-button">
-              <a class="stunning-item-button greennature-button large greennature-lb-payment donet-now" href="#">Donate
+            <div class="mid-button py-2 mb-4">
+              <a class="stunning-item-button greennature-button large greennature-lb-payment donet-now p-3 text-decoration-none fs-3" href="#">Donate
                 Now!</a>
-              <a class="stunning-item-button greennature-button large act-now" href="#">Act Now!</a>
+              <a class="stunning-item-button greennature-button large act-now p-3 text-decoration-none fs-3 fw-bold" href="#">Act Now!</a>
             </div>
           </div>
         </div>
@@ -410,12 +412,12 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-3 col-12 col-md-6 col-lg-3 ">
+          <div class="col-3 col-12 col-md-6 col-lg-3 mt-4 ">
             <img src="image/logo-light.png" calss="img-fluid" alt="">
             <p id="para">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo
               risus, porta. Etiam porta sem malesuada magna mollis euismod.</p>
           </div>
-          <div id="about-contact" class="col-3 col-12 col-md-6 col-lg-3 ">
+          <div id="about-contact" class="col-3 col-12 col-md-6 col-lg-3 mt-4 ">
             <h3 class="greennature-widget-title">Contact Info</h3>
             <span class="greennature-space"></span>
             <p id="para"> Address: 184 Main Collins Street West Victoria 8007
@@ -433,7 +435,7 @@
               <a href="mailto: contact@greennaturewp.com"> contact@greennaturewp.com</a>
             </div>
           </div>
-          <div class="col-3 col-12 col-md-6 col-lg-3 ">
+          <div class="col-3 col-12 col-md-6 col-lg-3  mt-4">
             <h3 class="greennature-widget-title tital-2">Recent Posts</h3>
             <div class="recent-post-widget-thumbnail">
               <a href="#"><img src="image/shutterstock.jpg" class="img-fluid" width="50" height="50"></a>
@@ -442,7 +444,7 @@
             <div class="recent-post-widget-title"><i class="fa-regular fa-clock-nine"></i><a href="#">21 Mar 2014</a>
             </div>
           </div>
-          <div class="col-3 col-12 col-md-6 col-lg-3 ">
+          <div class="col-3 col-12 col-md-6 col-lg-3  mt-4">
             <h3 class="greennature-widget-title tital-2">Recent Works</h3>
             <div class="recent-work">
               <a href="#"><img src="image/shutterstock4.jpg" class="img-fluid" width="70" height="70"></a>
