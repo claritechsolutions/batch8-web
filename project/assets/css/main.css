@@ -29,18 +29,6 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 480px) {
-    .hideButton {
-        display: none;
-    }
- } 
-
- @media (min-width: 768px){
-.navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
- }
 .msgButton {
     z-index: 1;
 } 
@@ -71,6 +59,10 @@ body {
     text-decoration: none;
     display: block;
   }
+
+.canvas-back-c {
+    background-color: rgb(84, 84, 207);
+}
 
   .menuDemo-content p i {
       /* background-color: yellow; */
