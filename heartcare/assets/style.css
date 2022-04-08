@@ -243,7 +243,7 @@ body{
 .heart-care-services{
     width: 100%;
     float: left;
-    background:url("/assets/images/services-bg.jpg") no-repeat left top;
+    background:url("/heartcare/assets/images/services-bg.jpg") no-repeat left top;
     background-size: cover;
     padding: 76px 0 80px;
     position: relative;
@@ -396,7 +396,7 @@ ul{
 /* appoinment */
 .call-appoinment {
     float: left;
-    background: url(/assets/images/call-app.jpg);
+    background: url("/heartcare/assets/images/call-app.jpg");
     position: relative;
     background-size: cover;
     padding: 60px 0;
