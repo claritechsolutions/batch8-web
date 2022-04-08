@@ -1,0 +1,102 @@
+
+/* .navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 3px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+} */
+.image-size{
+    width: 100%;
+}
+a{
+    text-decoration: none
+}
+.float-right{
+    align-items: ;
+}
+.img-margin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.centered{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .big-text{
+      font-size: 60px;
+      color: white;
+      text-align: center;
+  }
+  .small-text{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+button{
+    border: none;
+     text-align: center;
+     margin: auto;
+     display: flex;
+     size: 300px 100px;
+}
+.center-align{
+text-align: center;
+}
+.f1{
+    size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.f2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    size: 20px;
+}
+.f3{
+    font-family: 'Montserrat', sans-serif;
+   color: rgb(255, 255, 255);
+    size: 14 px;
+    height: 26 px;
+}
+.f4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    size: 14px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+ 
+}
+.s1{
+    background-color: black;
+    color: aliceblue;
+    size: 12px;
+    border: none;
+}
+.t1{
+    width: 400px;
+    size: 14px;
+    height: 25px;
+}
+.spad{
+    padding: 17%;
+}
+.ul-style{
+    list-style: none;
+}
+.btn{
+    width: 150px;
+    border-radius: 0;
+}
