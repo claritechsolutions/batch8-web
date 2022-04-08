@@ -442,72 +442,114 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallary-menu text-center ">
+                <div class="gallary-menu text-center">
                     <div class="row ">
                         <div class="col-12">
-                            <button class="active gallery-btn" data-filter="*">All</button>
-                            <button class="gallery-btn" data-filter="#old">Old Memories</button>
-                            <!-- <a href="#old"> old memories</a> -->
-                            <button class="gallery-btn" data-filter="event">Event</button>
-                            <button class="gallery-btn" data-filter="picnic">Our picnic</button>
-                            <button class="gallery-btn" data-filter="recent">recent</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-image-wrap ">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
-                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 recent">
-                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                            <div class="nav d-flex nav-pills justify-content-center me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="gallery-btn" id="v-pills-all-tab" data-bs-toggle="pill" data-bs-target="#v-pills-all" type="button" role="tab" aria-controls="v-pills-all" aria-selected="true">All</button>
+                                <button class="gallery-btn" id="v-pills-memories-tab" data-bs-toggle="pill" data-bs-target="#v-pills-memories" type="button" role="tab" aria-controls="v-pills-memories" aria-selected="false">Old Memories</button>
+                                <button class="gallery-btn" id="v-pills-event-gallery-tab" data-bs-toggle="pill" data-bs-target="#v-pills-event" type="button" role="tab" aria-controls="v-pills-event" aria-selected="false">Event</button>
+                                <button class="gallery-btn" id="v-pills-our-picnic-tab" data-bs-toggle="pill" data-bs-target="#v-pills-picnic" type="button" role="tab" aria-controls="v-pills-picnic" aria-selected="false">Our picnic</button>
+                                <button class="gallery-btn" id="v-pills-recent-gallery-tab" data-bs-toggle="pill" data-bs-target="#v-pills-recent" type="button" role="tab" aria-controls="v-pills-recent" aria-selected="false">recent</button>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="row ">
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
+                    <div class="gallery-image-wrap">
+                        <div class="row">
+                            <div class="col-12 mx-auto">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-all" role="tabpanel" aria-labelledby="v-pills-all-tab">
+                                        <div class="row">
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/slider-img1.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 recent">
+                                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="v-pills-memories" role="tabpanel" aria-labelledby="v-pills-memories-tab">
+                                        <div class="row">
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-event" role="tabpanel" aria-labelledby="v-pills-event-gallery-tab">
+                                        <div class="row">
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 recent">
+                                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-picnic" role="tabpanel" aria-labelledby="v-pills-our-picnic-tab">
+                                        <div class="row">
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-4.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-recent" role="tabpanel" aria-labelledby="v-pills-recent-gallery-tab">
+                                        <div class="row" id="recent-gallery">
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
+                                                <img src="/uniAlumini/assets/images/slider-img1.jpg " class="mt-3 img-fluid" alt=" ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-5.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-8.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/about-bg.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/event-img-2.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/slider-img1.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                                <img src="/uniAlumini/assets/images/gellary-img-6.jpg " class="mt-3 img-fluid" alt=" ">
-                            </div>
-                        </div> -->
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
     </section>
