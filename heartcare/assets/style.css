@@ -241,13 +241,20 @@ body{
     border: 0px;
 }
 .heart-care-services{
-    width: 100%;
+    /* width: 100%;
     float: left;
     background:url("/heartcare/assets/images/services-bg.jpg") no-repeat left top;
     background-size: cover;
     padding: 76px 0 80px;
     position: relative;
     margin-top: 30px;
+    background-color: ; */
+    background: rgba(0, 0, 0, 0.8) url("/heartcare/assets/images/services-bg.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    position: relative;
+    background-blend-mode: darken;
+    padding: 177px 0px;
 
     
 
