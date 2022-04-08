@@ -1,0 +1,496 @@
+:root{
+    --primary:rgba(33, 5, 5, 0.5);
+    --secondary:rgba(15, 15, 15, 0.5);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+/* google-font */
+body{
+    font-family:'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+    }
+/* top-bar css */
+.icon-p
+    {
+    padding: 7px;
+    }
+.pos
+    {
+        padding-left:11px;
+        display: flex;
+    }
+.pos a
+{
+    display: block;
+    border-left: 1px solid #666;
+    line-height: 35px;
+    color: #999999;
+    width:35px;
+    text-align: center;
+}
+.pos a:hover{
+    background-color: white;
+}
+.fa-twitter:hover
+{
+    color: #e12929;
+}
+.fa-facebook:hover
+{
+    color: #e12929;
+}
+.fa-google-plus-g:hover
+{
+    color:#e12929;
+}
+.fa-instagram:hover
+{
+    color:#e12929;
+}
+.fa-youtube:hover
+{
+    color:#e12929;
+}
+
+.youtube{
+    border-right: 1px solid #666;
+}
+/* navbar css */
+.nav-area
+{
+    box-shadow: 5px 0 10px rgb(0 0 0 / 10%);
+    padding: 21px;
+}
+.img-bar{
+    padding-left: 30px;
+    height: 23px;
+    top: 8px;
+    position: relative;
+    
+}
+.img-bar:hover{
+    background-color: #bf0311;
+    color:white;
+    
+}
+.navbar-nav
+{
+   padding-left:6px; 
+}
+.nav-link
+{
+    color:#777;
+    font-size: large;
+}
+.nav-link:hover
+{
+    background-color: #bf0311;
+    color:white;
+    
+}
+.dropdown-item:hover
+{
+    background-color:#bf0311;
+    color:white;
+}
+.dropdown-menu:hover
+{
+    color:white;
+}
+.btn{
+    margin-left: 15px;
+}
+.btn :hover
+{
+    background-color:#0a0a0a;
+    color:white;
+}
+
+/* slide css */
+#slider-wrap
+{
+    padding-top: 40px;
+}
+.carousel-item img{
+    background-color: black;
+    opacity:0.5;
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 29%;
+    left: 19%;
+    transform: (-50%,-50%);
+    font-size: 41px;
+}
+ .centered1{
+    position: absolute;
+    z-index: 1;
+    top: 64%;
+    left: 31%;
+    transform: (-50%,-50%);
+}
+.slider-text-wrap{
+    position: absolute;
+}
+.centered2{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: (-50%,-50%)
+}
+.centered1:hover
+{   
+    background-color: #0a0a0a;
+    color: white;
+}
+.centered2:hover
+{   
+    background-color: #0a0a0a;
+    color: white;
+}
+.box{ 
+    left: 1000;
+    bottom: 0;
+    width: 492px;
+    height: 428px;
+    background: #fff;
+    border: 10px solid #e1e1e1;
+    left: 581px;
+    bottom: -50px;
+    content: "";
+}
+.welcome-box-wrap  {
+        height: 29rem;
+        padding-top:64px;
+    }
+    
+#item1{
+    position: relative;
+    height: 393px;
+    width: 496px;
+    top: -446px;
+    left: 39px;
+}
+
+
+/* 3 box css */
+.box1{
+    background: #333;
+    width: 100%;
+    border: 8px solid #fff;
+    outline: 2px solid #e1e1e1;
+    min-height: 246px;
+    padding: 30px 30px 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.box2{
+    background: #bf0311;
+    width: 100%;
+    border: 8px solid #fff;
+    outline: 2px solid #e1e1e1;
+    min-height: 246px;
+    padding: 30px 30px 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.box3{
+    background: #333;
+    width: 100%;
+    border: 8px solid #fff;
+    outline: 2px solid #e1e1e1;
+    min-height: 246px;
+    padding: 30px 30px 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.three-box{
+    padding: 60px;
+}
+.box-info{
+    padding-bottom:2px;
+}
+.card-img-top{
+    border: 2px solid gray;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+/* heartcare services */
+.section-title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-bottom: 41px;
+}
+.heart-care-services .list-group {
+    width: 225px;
+    float: right;
+    border: 0px;
+}
+.heart-care-services{
+    width: 100%;
+    float: left;
+    background:url("/assets/images/services-bg.jpg") no-repeat left top;
+    background-size: cover;
+    padding: 76px 0 80px;
+    position: relative;
+    margin-top: 30px;
+
+    
+
+}
+
+.ser-tab-text p .fa {
+    float: left;
+    font-size: 80px;
+    color: #fff;
+    margin-right: 20px;
+}
+.ser-tab-text ul li .fa {
+    margin-right: 5px;
+}
+.ser-tab-text ul li {
+    color: #fff;
+    line-height: 24px;
+}
+
+/* team box css */
+.section-title-3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-bottom: 41px;
+}
+.team-box {
+    width: 100%;
+    float: left;
+}
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+.team-pa-1{
+    padding-bottom: 59px;
+}
+.team-box {
+    width: 100%;
+    float: left;
+}
+.team-box .team-thumb {
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto -75px;
+}
+.team-thumb > img {
+    height: auto;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+.team-social {
+    margin: 17px 0 0;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+}
+.team-social li{
+    display: inline-block;
+}
+.team-social li a {
+    display: block;
+    border: 1px solid #0e0d0d;
+    color: #9c9c9c;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+.team-social li a.tw {
+    color: #29a9e1;
+}
+.team-social li a.fb {
+    color: #3b5998;
+}
+.team-social li a.gp {
+    color: #e15d4d;
+}
+.team-social li a.insta {
+    color: #5280a7;
+}
+.team-social li a.yt {
+    color: #cb312e;
+}
+.team-box .team-text {
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    padding: 90px 20px 20px 20px;
+    text-align: center;
+}
+.team-text h5 a {
+    color: #222;
+}
+
+.ft-logo {
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+}
+.footer .widget {
+    width: 100%;
+    float: left;
+    margin: 0 0 50px;
+}
+.footer .widget p {
+    line-height: 24px;
+    color: #999999;
+}
+.footer .widget h3 {
+    margin: 0 0 20px;
+    color: #cccccc;
+    line-height: 24px;
+}
+.footer .widget ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.team-social-1{
+    margin: -5px 0 0;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.team-social-1 li a {
+    display: block;
+    border: 1px solid #0e0d0d;
+    color: #d16060;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+/* appoinment */
+.call-appoinment {
+    float: left;
+    background: url(/assets/images/call-app.jpg);
+    position: relative;
+    background-size: cover;
+    padding: 60px 0;
+    width: 100%;  
+    
+
+}
+.call-appointment .container {
+    position: relative;
+    z-index: 99;
+}
+.get-appoinment h2 {
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+body h2 {
+    font-size: 36px;
+}
+
+
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+.app-form {
+    margin: 30px 0 0;
+}
+.app-form select {
+    width: 100%;
+    border: 0px;
+    border: 1px solid #d7d8da;
+    line-height: 40px;
+    height: 40px;
+    box-shadow: none;
+    background: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: #777777;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.app-form .input-group {
+    width: 100%;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.app-form .input-group-addon {
+    background: none;
+    padding: 0px;
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 88;
+}
+/* .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+.app-form textarea {
+    width: 100%;
+    background: none;
+    border: 0px;
+    border: 1px solid #d7d8da;
+    color: #777777;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 10px;
+    height: 100px;
+}
+.app-form input[type="submit"] {
+    background: #bf0311;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 45px;
+    border: 0px;
+}
+.ft{
+    padding-top: 15px;
+}
