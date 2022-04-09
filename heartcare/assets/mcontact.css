@@ -1,0 +1,13 @@
+@media only screen and (min-width:320px){
+    .pos {
+        justify-content: flex-end;
+        margin-right: 0;
+        padding-left: 11px;
+        display: none;
+    }
+}
+@media only screen and (min-width:768px){
+    .pos{
+        display: inline-flex;
+}
+}

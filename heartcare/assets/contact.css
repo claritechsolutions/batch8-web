@@ -1,0 +1,161 @@
+body{
+    font-family:'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+    }
+/* top-bar css */
+.icon-p
+    {
+    padding: 7px;
+    }
+.pos
+    {
+        padding-left:11px;
+        display: flex;
+    }
+.pos a
+{
+    display: block;
+    border-left: 1px solid #666;
+    line-height: 35px;
+    color: #999999;
+    width:35px;
+    text-align: center;
+}
+.pos a:hover{
+    background-color: white;
+}
+.fa-twitter:hover
+{
+    color: #e12929;
+}
+.fa-facebook:hover
+{
+    color: #e12929;
+}
+.fa-google-plus-g:hover
+{
+    color:#e12929;
+}
+.fa-instagram:hover
+{
+    color:#e12929;
+}
+.fa-youtube:hover
+{
+    color:#e12929;
+}
+
+.youtube{
+    border-right: 1px solid #666;
+}
+/* navbar */
+.nav-link:hover
+{
+    background-color: #bf0311;
+    color:white;
+    
+}
+.navbar-nav
+{
+   padding-left:6px; 
+}
+.nav-link
+{
+    color:#777;
+    font-size: large;
+}
+.dropdown-item:hover
+{
+    background-color:#bf0311;
+    color:white;
+}
+.dropdown-menu:hover
+{
+    color:white;
+}
+.btn{
+    margin-left: 15px;
+}
+.btn :hover
+{
+    background-color:#0a0a0a;
+    color:white;
+}
+.img-bar{
+    padding-left: 30px;
+    height: 23px;
+    top: 8px;
+    position: relative;
+    
+}
+.img-bar:hover{
+    background-color: #bf0311;
+    color:white;
+}
+/* services */
+.card-img-top{
+    border: 2px solid gray;
+}
+.card-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    
+}
+/* red section */
+.con-1{
+    height: 290px;
+    background-color: #bf0311;
+}
+.text-1{
+    padding-top: 90px;
+}
+/* footer */
+.ft-logo {
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+}
+.footer .widget {
+    width: 100%;
+    float: left;
+    margin: 0 0 50px;
+}
+.footer .widget p {
+    line-height: 24px;
+    color: #999999;
+}
+.footer .widget h3 {
+    margin: 0 0 20px;
+    color: #cccccc;
+    line-height: 24px;
+}
+.footer .widget ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.team-social-1{
+    margin: -5px 0 0;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.team-social-1 li a {
+    display: block;
+    border: 1px solid #0e0d0d;
+    color: #d16060;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
