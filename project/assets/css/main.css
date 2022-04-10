@@ -1,11 +1,17 @@
 body {
     margin: 0;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .firstPagebackImage {
     background-image: url("../image/img/background.gif");
-    
+
+}
+
+.typoPagebackImage {
+    /* background-image: url("../image/img/diary-3435095__340.webp");
+    background-repeat: no-repeat; */
+    background-color: rgb(187, 187, 187);
 }
 
 .buyButtonColor {
@@ -31,7 +37,7 @@ body {
 
 .msgButton {
     z-index: 1;
-} 
+}
 
 .divider {
     height: 180px;
@@ -42,65 +48,128 @@ body {
 .menuDemo {
     position: relative;
     display: inline-block;
-  }
+}
 
-  .menuDemo-content {
+.menuDemo-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .menuDemo-content p {
+}
+
+.menuDemo-content p {
     color: black;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
-  }
+}
 
 .canvas-back-c {
     background-color: rgb(84, 84, 207);
 }
 
-  .menuDemo-content p i {
-      /* background-color: yellow; */
-      float: right;
-      padding: 5px 5px;
-  }
-  
-  /* .menuDemo-content a:hover {
+.menuDemo-content p i {
+    /* background-color: yellow; */
+    float: right;
+    padding: 5px 5px;
+}
+
+/* .menuDemo-content a:hover {
       background-color: ;
   }  */
-  
-  .menuDemo:hover .menuDemo-content {
+
+.menuDemo:hover .menuDemo-content {
     display: block;
-  } 
-  /* dropdown end */
+}
 
-  .star {
-      color: yellow;
-  }
+/* dropdown end */
 
-   /* last page own it */
+.star {
+    color: yellow;
+}
+
+/* last page own it */
 .outLine {
     border-bottom: 1px dashed white;
 }
+
 .back {
-animation: colorchange 10s infinite; 
+    animation: colorchange 10s infinite;
 }
 
 @keyframes colorchange {
-0% {
-background-color: #45a3e5
+    0% {
+        background-color: #45a3e5
+    }
+
+    50% {
+        background-color: #66bf39
+    }
+
+    100% {
+        background-color: #864cbf
+    }
 }
 
-50% {
-background-color: #66bf39
+/* fistpage module */
+.moduleImageClick {
+    position: relative;
+    display: none;
+    z-index: 1;
 }
 
-100% {
-background-color: #864cbf
+.hideCloseButton {
+    position: relative;
+    /* display: none;  */
 }
+
+.head {
+    background-color: rgb(84, 84, 207);
+}
+
+.mouseOver:hover {
+    background-color: white;
+}
+
+
+/* /typography */
+
+.line::before {
+    content: '';
+    flex-grow: 1;
+    border-top: 1px solid #eaeff4;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+
+.line::after {
+    content: '';
+    flex-grow: 1;
+    border-top: 1px solid #eaeff4;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.slash::after {
+    content: '\002F';
+    font-weight: 400;
+    color: rgb(201, 198, 198);
+}
+
+.nslash .nav-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.dot::after {
+    content: "\2022";
+    font-weight: 100;
+    color: rgb(124, 122, 122);
+}
+
+.ndot .nav-item {
+    display: inline-flex;
+    align-items: center;
 }

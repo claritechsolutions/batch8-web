@@ -21,3 +21,19 @@
     }
 
 }
+
+/* typography */
+@media screen and (max-width: 480px) {
+    .slash {
+        margin-right: -3px;
+    }
+
+    .dot {
+        margin-right: -3px;
+
+    }
+
+    .navbar-nav {
+        margin-left: 10px;
+    }
+}
