@@ -101,15 +101,13 @@
                                     z-index: 1;
                                     transform: translate(15px, -193px);
                                 }
-                            }
-                            
-                            #page-title-contactUs {
-                                background: rgba(0, 0, 0, 0.8) url(/uniAlumini/assets/images/contact-us.jpg);
-                                padding: 200px 0px;
-                            }
-                            
-                            .small-respo {
-                                display: none;
+                                #page-title-contactUs {
+                                    background: rgba(0, 0, 0, 0.8) url(/uniAlumini/assets/images/contact-us.jpg);
+                                    padding: 200px 0px;
+                                }
+                                .small-respo {
+                                    display: none;
+                                }
                             }
                             
                             @media only screen and (width: 425px) {
