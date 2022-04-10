@@ -1,0 +1,22 @@
+/* .btn-test{
+    border-radius:70px;
+    width: 100px;
+    color: white;
+} */
+.product-test{
+    border: 1px solid #eff0f1;
+    padding: 35px 20px 45px;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+
+/* .box1{
+    border: 1 px solid black;
+    width: 300px;
+    height: 200px;
+}
+} */
+.product-test {
+    box-sizing: content-box;
+  }
+  
