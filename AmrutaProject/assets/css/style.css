@@ -61,6 +61,9 @@ li a {
     color: #fff;
     font-weight: bold;
 }
+.card{
+    border: none;
+}
 .img-responsive {
     display: block;
     max-width: 100%;
@@ -70,12 +73,19 @@ li a {
     display: block;
     max-width: 100%;
     height: auto;
+
 }
 .logo {
     float: left;
     width: 100%;
     padding:  0;
     height: 20%;
+}
+.nav-link{
+        color: #000;
+        font-weight: 600;
+        padding-right: 10px;
+        padding-left: 10px;
 }
 .sticky .navbar-nav li a {
     padding-bottom: 23px;
@@ -88,6 +98,7 @@ li a {
     border-bottom: 3px solid #fff;
     outline: none;
     text-transform: uppercase;
+    color: #000;
 }
  .a{
     color: #e17698;
@@ -95,9 +106,6 @@ li a {
     transition: color .1s ease-in-out;
     -moz-transition: color .1s ease-in-out;
     -webkit-transition: color .1s ease-in-out;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: #000;
 }
 .carousel-caption h5{
 font-size: 60px;
@@ -145,7 +153,5 @@ footer h4 {
 #p6 .col-md-4 { 
     margin-bottom:40px; 
 }
-@media screen and (max-width: 860px) {
-    .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
-    .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
-  }
+
+ 
