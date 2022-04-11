@@ -42,35 +42,10 @@ a.navbar-brand.nav-img {
     display: block
 }
 
-
-/* .nav-text-wrap li:active {
-    background: #dbe5f3;
-} */
-
-
-/* .logo-img-wrap {
-    width: 21vw;
-    height: 18vh;
-} */
-
 .nav-text-wrap ul,
 li {
     font-size: 2rem;
 }
-
-
-/* icon */
-
-
-/* 
-.icon-setting i {
-    top: 0;
-    position: sticky;
-    position: -webkit-sticky;
-} */
-
-
-/* carousel content */
 
 #slider-wrap {
     z-index: 1;
@@ -88,9 +63,6 @@ li {
     margin-top: 7rem;
     color: white;
     position: absolute;
-    /* background-size: cover; */
-    /* background-color: #000;
-    opacity: 0.7; */
 }
 
 .btn-cust-style-head {
@@ -329,12 +301,6 @@ input[type="email"] {
 .main-wrap-contact {
     box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
 }
-
-
-/* .map-wrap iframe {
-    width: 500px;
-    height: 491px;
-} */
 
 .modal-content {
     background-color: #0e2342;
