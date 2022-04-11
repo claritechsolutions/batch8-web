@@ -1,3 +1,8 @@
+:root {
+--limegreen: #32cd32;
+--small-size: 14px;
+}
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -9,13 +14,11 @@ body {
 }
 
 .typoPagebackImage {
-    /* background-image: url("../image/img/diary-3435095__340.webp");
-    background-repeat: no-repeat; */
     background-color: rgb(187, 187, 187);
 }
 
 .buyButtonColor {
-    background-color: limegreen;
+    background-color: var(--limegreen);
 }
 
 .navbar-divider {
@@ -71,14 +74,9 @@ body {
 }
 
 .menuDemo-content p i {
-    /* background-color: yellow; */
     float: right;
     padding: 5px 5px;
 }
-
-/* .menuDemo-content a:hover {
-      background-color: ;
-  }  */
 
 .menuDemo:hover .menuDemo-content {
     display: block;
@@ -172,4 +170,9 @@ body {
 .ndot .nav-item {
     display: inline-flex;
     align-items: center;
+}
+/* css variable */
+
+.smallFontSize {
+    font-size: var(--small-size);
 }
