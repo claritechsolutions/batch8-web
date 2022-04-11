@@ -84,8 +84,8 @@ font-family: 'Roboto Slab', serif;
 /* The ribbon */
 .ribbon {
     width: 100px;
-    height: 150px;
-    background-color: red;
+    height: 92px;
+    background-color: rgba(57, 195, 186, 0.66);
     position: absolute;
     right: 100px;
     top: -350px;
@@ -98,8 +98,8 @@ font-family: 'Roboto Slab', serif;
     z-index: 2;
     left: 0;
     bottom: -50px;
-    border-left: 50px solid red;
-    border-right: 50px solid red;
+    border-left: 50px solid rgba(57, 195, 186, 0.66);;
+    border-right: 50px solid rgba(57, 195, 186, 0.66);;
     border-bottom: 50px solid transparent;
   }
   .ribbon:after {
@@ -113,7 +113,83 @@ font-family: 'Roboto Slab', serif;
     /* background-color: #507abd; */
     /* transform: skewY(35deg) skewX(0); */
   }
-  
+  .ribbon ul {
+    padding: 0 10px;
+    width: 100%;
+    float: left;
+  }
+  .ribbon li a {
+    color: #fff;
+    text-decoration: none;
+}
+  nav ul{
+    margin: 0;
+  }
+  .ribbon li {
+    float: left;
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 9px 0 9px 3px;
+    letter-spacing: -0.034em;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    text-shadow: 0 0 1px rgb(0 0 0 / 30%);
+}
+.wrap {
+  margin: 0 auto;
+  text-align: left;
+  width: 1170px;
+  max-width: 94%;
+  position: relative;
+}
+.main-search .wrap > form {
+  position: absolute;
+  top: -280px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  display: inline-block;
+  padding: 15px 15px 10px;
+  border: 1px solid #fff;
+}
+.row {
+  margin: 0 -10px;
+}
+.main-search .column {
+  margin-bottom: 0;
+}
+.main-search .radios {
+  padding-top: 5px;
+}
+.one-fourth {
+  width: 25%;
+  float: left;
+  display: block;
+  padding: 0 10px;
+  margin: 0 0 20px;
+}
+.main-search h5 {
+  font: 400 16px 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 0 0 15px;
+}
+.main-search h5 span {
+  font-weight: 800;
+}
+  .main-search .f-item.one-half, .main-search .f-item.one-third {
+    padding-right: 0;
+}
+.main-search .f-item {
+    margin: 0 0 5px;
+}
+.one-half {
+    width: 50%;
+    float: left;
+    display: block;
+    padding: 0 10px;
+    margin: 0 0 20px;
+}
   @-webkit-keyframes drop {
     0% {
       top: -350px;
