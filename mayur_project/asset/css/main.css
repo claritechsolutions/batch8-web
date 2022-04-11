@@ -1,5 +1,5 @@
 .hd-margin{
-    margin-left: 300px !important;
+    align-items: center;
 }
 .slider {
    background-color: var(--background-color);
@@ -20,4 +20,10 @@
 }
 .imgheight{
     height: 595px;
+}
+.mdimg1 {
+    margin-top: 15px;    
+}
+.img4{
+    margin-top: 15px;
 }
