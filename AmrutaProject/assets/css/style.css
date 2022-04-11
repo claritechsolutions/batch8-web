@@ -21,7 +21,12 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  .nav-text-wrap a:hover{
+    background: #dbe5fd;
+    padding: 2.1rem 0.4rem;
+    margin-block-start: -1.8rem;
+    margin-right: 10px;
+}
   li a:hover:not(.nav-item) {
     background-color: rgb(243, 91, 154);
   }
@@ -154,4 +159,13 @@ footer h4 {
     margin-bottom:40px; 
 }
 
- 
+i.fab { border-radius: 50%;
+    transition:background-color 0.5s ease-in-out 0s;
+        height: 37px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 37px;}
+    .social-mid a .fab { color:#fff;}
+    .social-mid a:hover .fab { background:#e17698; }
+    .social-mid a .fab:hover { color:#fff; }
+    
