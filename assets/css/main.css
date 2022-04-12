@@ -1,17 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.ggrey{
-    background-color: rgba(128, 128, 128, 0.397);
-}
-.tsmall{
+.custom-text-small{
     font-size: 15px;
     color: gray;
 }
-.ddoler{
+.doler-symbol{
     color: #80BB26;
 }
-.pbjhon{
+.name-color{
     color: #00ddff;
 }
 a{
@@ -23,14 +20,12 @@ a{
     width: 90%;
 }
 
-
 .custom-form-1,.custom-form-4{
     border-radius: 20px;
     height: 70%;
     width: 90%;
     background-color: #fff;
 }
-
 
 .icon-wrap {
     align-items: center;
@@ -58,12 +53,11 @@ li{
     object-fit: cover;
     object-position: center;
 }
-
 i {
    
     color: #01B7F2;
 }
-#bg-image-wrap{
+.bg-image-wrap{
     filter: brightness(50%);
 }
 .icon-wrap{
@@ -73,9 +67,6 @@ i {
 .insta-image-wrap{
     width: 90%;
 }
-#carousel-mobile{
-    display: none;
-}
 
 footer{
     background-color: #2D3E52;
@@ -83,24 +74,4 @@ footer{
 }
 li{
     list-style-type: none;
-}
-
-@media only screen and (max-width: 600px){
-    .iimg{
-        width: 100%;
-    }
-    #carousel-mobile{
-        display: block;
-    }
-    #carousel-desktop{
-        display: none;
-    }
-    
-    /* .custom-form-1,.custom-form-4{
-        border-radius: 20px;
-        width: 90%;
-        height: 90%;
-    
-    } */
-    
 }
