@@ -42,7 +42,7 @@
 }
 .wrapper.static-txt{
 	color: #fff;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight:400;
 }
 .wrapper .dynamic-txts{
@@ -56,7 +56,7 @@
 .dynamic-txts li{
 	/* color: #fc6d6f; */
 	list-style: none;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 500;
 	position: relative;
 	top: 0;
