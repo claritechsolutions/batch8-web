@@ -14,52 +14,58 @@
   </head>
 <body>
   <!--.....................home page.....................-->
-  <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-ligh ">
-        <div class="container">
+  <section class="position-sticky fixed-top" id="p1">
+  
+       <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-fixed-top">
         <div class="row">
          
             <div class="col-4">
               <div class="logo"><a href="#"><img src="assets/images/logo.png" class="img-responsive" alt="logo"></a></div>
             </div>
 
-            <div class="col-8">
-               <!-- <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-ligh ">-->
-                    <div class="container-fluid nav-text-wrap">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class=" fas fa-stream navbar-toggler-icon"></i>
-                      <span class="navbar-toggler-icon"></span>
-                      </button>
-                      
-                      <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav text-center ml-auto pt-4">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#p4">Team</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#p5">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Cakes</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#p7">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>       
+            <div class="col-8 d-flex justify-content-end">
+              <!-- <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-ligh ">-->
+              <div class=" navbar-right d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class=" fas fa-stream navbar-toggler-icon"></i>
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse navbar-right " id="navbarNav">
+                  <ul class="navbar-nav mr-auto pt-4">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#p1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#p4">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#p5">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Cakes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#p7">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </nav>
             </div>
          </div>   
         </div>
+      </div>
+        
+        </section>
 <!--.......................slide images..........................-->
 <div class="container pb-5">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -69,22 +75,22 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item" data-bs-interval="1000">
-          <img src="assets/images/background/bg1.jpg" class="img-fluid" alt="...">
+        <div class="carousel-item pt-0 position-sticky " data-bs-interval="1000">
+          <img src="assets/images/background/bg1.jpg" class="img-fluid " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>SWEET CAKE THEME</h5>
             <p style="background-color: black;">GOOD WE ARE HERE TO SERVE YOU</p>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="1000">
-          <img src="assets/images/background/bg2.jpg" class="img-fluid" alt="...">
+        <div class="carousel-item pt-0 position-sticky" data-bs-interval="1000">
+          <img src="assets/images/background/bg2.jpg" class="img-fluid " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>LOVE AND CREAM</h5>
             <p>A PREMIUM RESTAURANT THEME</p>
           </div>
         </div>
-        <div class="carousel-item active">
-          <img src="assets/images/background/bg3.jpg" class="img-fluid" alt="...">
+        <div class="carousel-item active pt-0 position-sticky">
+          <img src="assets/images/background/bg3.jpg" class="img-fluid " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="fs-1;"><b>WEDDING CUPCAKES</b></h5>
             <p>WHY DON'T YOU TASTE IT?</p>
@@ -104,7 +110,7 @@
    <!--<div class="border-b"><span><img src="assets/images/background/border.jpg"></span></div>-->
 
   <!--......................Cake Card......................-->
-   <section> 
+   <section class="py-5"> 
     <h1 class="text-center fs-1  py-3">WELCOME TO OUR<strong> CAKE BAKERY</strong></h1>
        <div class="container pt-4">
            <div class="row">
@@ -140,9 +146,9 @@
         </div>
    </div></section>
   <!--......................Team page....................-->
-  <section id="p4">
-    <h1 class="text-center fs-1  py-3"> OUR SPICY<strong> CHEFS TEAM</strong></h1>
-    <div class="container pt-4">
+  <section class="pt-5" id="p4">
+    <h1 class="text-center fs-1 "> OUR SPICY<strong> CHEFS TEAM</strong></h1>
+    <div class="container pt-2">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
            <!--Executive Chef-->
@@ -236,7 +242,7 @@
     </div>
   </div></section>
   <!--......................About page....................-->
-  <section class="mt-5" id="p5">
+  <section class="py-5 " id="p5">
     <div class="container pt-5">
       <div class="row puretext section p3" id="p3">
       <h2 class="text-center">SOME WORDS <strong>ABOUT FRATTINI</strong></h2>
