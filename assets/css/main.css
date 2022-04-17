@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-/* *,
+.loader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    height: 100vh;
+    width:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+.disppear{
+    animation:vanish 3s forwards;
+}
+@keyframes vanish {
+    100%{
+        opcity:0% ;
+        visibility: hidden;
+    }
+    
+}
+*,
 *:after,
 *:before{
     -webkit-box-sizing: border-box;
@@ -28,7 +51,7 @@ ul,
 ol{
     margin: 0;
     padding: 0;
-} */
+}
 /*  Note- this code used in starting pgm for start form 0 */
 /* ===variable define=== */
 :root{
@@ -300,6 +323,7 @@ food-type
 .story-section h2{
     color:var(--primary-color);
 }
+
 /*
 ====================================
 explore food
