@@ -1,0 +1,14 @@
+var x = "8" ;
+var y = "10" ;
+var c = 11 ;
+//console.log(x==y);
+//console.log(x===y);     
+//console.log(c!=12);
+var a=19;
+var b=7;
+console.log(a>b);
+console.log(a>=19);
+console.log(10+'5'+20);
+console.log(10+5+20);
+console.log(10+5*20);
+console.log((10+5)*20);
