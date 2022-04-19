@@ -5,5 +5,5 @@ const readline = require('readline').createInterface({
 
 readline.question(`What's your name?`, name => {
     console.log(`Hi ${name}!`)
-    readline.close()
+    readline.close();
 })
