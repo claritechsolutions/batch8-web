@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Result</p>
+    <label for="inputnum" >Enter marks of student</label>
+    <input type="number" id="num" value=""></input>
+    <button type="submit" class="btn btn-primary" onclick="re()" id="num1">Submit</button>
+    <script>
+        function re()
+        {
+        var per;
+       per = document.getElementById("num").value;
+       console.log(per);
+       
+        result = (per > 35) ? "Student is pass" : "Student is Fail";
+        document.write(result);
+        console.log(result);
+        }
+   
+</script>
+</body>
+</html>
+</body>
+</html>
