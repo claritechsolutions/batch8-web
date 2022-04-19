@@ -2,17 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="100"> -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
-    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Solid finance</title>
 </head>
 
 <body>
@@ -20,319 +26,368 @@
     <section class="header" id="header">
         <div class="header-wrap bg-dark text-wrap text-white py-2 align-items:center">
             <div class="container">
-                <div class="row  ">
-                    <div class="col-6">
-                        <p class="text1">info@solidfinance.com</p>
-                    </div>
-                    <div class="col-6">
-                        <p class="text2">Free Consultation +(012) 345 6789</p>
-                    </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-12 text-md-start  green-icon"><i class="fa-solid fa-envelope pe-2 "></i><a
+                            href="#"> info@solidfinance.com</a></div>
+                    <div class="col-md-6 col-12 text-md-end">For Free Consultation <a href="#"
+                            class="custom-green">+(012) 345 6789</a></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- nav section  -->
-    <section class="nav" id="nav">
+    <section class="nav position-sticky bg-white fixed-top" id="nav">
         <div class="container">
             <div class="row">
-                <div class="logo-wrap pt-5 d-flex">
-                    <div class="col-2">
-                        <img src="/assets/image/logo.png">
+                <div class="logo-wrap pt-2 d-flex">
+                    <div class="col-4 col-md-6 col-sm-4 col-lg-2">
+                        <img src="assets/image/logo.png" class="img-fluid">
                     </div>
 
-                    <div class="nav-wrap d-flex pt-3 mx-2">
+                    <div class="nav-wrap1 d-flex">
 
-                        <div class="col-10">
+                        <div class="col-8 col-md-6 col-sm-8 col-lg-10">
 
                             <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 ">
-                                <div class="container-fluid">
-                                    <a class="navbar-brand" href="#"></a>
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                    </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    HOME
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">HOMEPAGE1</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">HOMEPAGE2</a></li>
+                                <!-- <div class="container-fluid"> -->
+                                <a class="navbar-brand" href="#"></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                HOME
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">HOMEPAGE1</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">HOMEPAGE2</a></li>
 
 
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    ABOUT US
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">ABOUT US</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                ABOUT US
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">FAQ's</a></li>
 
 
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    SERVICE
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">SERVICE STYLE ONE</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">SERVICE STYLE TWO</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">SERVICE DETAILS</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    TEAM
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">TEAM STYLE ONE</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                SERVICE
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">SERVICE STYLE ONE</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">SERVICE STYLE TWO</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">SERVICE DETAILS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                TEAM
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">TEAM STYLE ONE</a></li>
 
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">TEAM STYLE TWO</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">TEAM DETAILS</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    FEATURES
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">FEATURE STORIES</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">FEATURE GALLERY</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">404 PAGE</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    SHOP
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">SHOP SINGLE</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">SHOPPING CART</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown ">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    BLOG
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">OUR BLOG</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">BLOG SINGLE</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">TEAM STYLE TWO</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">TEAM DETAILS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                FEATURES
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">FEATURE STORIES</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">FEATURE GALLERY</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                SHOP
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">SHOP SINGLE</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">SHOPPING CART</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                BLOG
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">OUR BLOG</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">BLOG SINGLE</a></li>
 
 
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    CONTACT
-                                                </a>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                CONTACT
+                                            </a>
 
-                                            </li>
-                                            <li>
-                                                <i class="bi bi-cart"></i>
-                                                <i class="fa badge" style="font-size:30px" value=4>&#xf07a;</i>
-                                            </li>
+                                        </li>
 
-                                        </ul>
-                                    </div>
+                                    </ul>
+                                    <form class="d-flex">
+
+                                        <button type="button" class="btn btn-primary position-relative">
+                                            <i class="fa-solid fa-cart-arrow-down"></i>
+                                            <span
+                                                class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle text-white">
+                                                <span>2</span>
+                                            </span>
+                                        </button>
+
+                                    </form>
                                 </div>
-                            </nav>
+                        </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- main section with background image  carosel   -->
+    <main>
+        <section>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/image-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption text-start mb-5 pb-5">
+                            <h3>WELCOME TO SOLID FINANCE</h3>
+                            <h2>Start Your Future Financial Plan</h2>
+                            <p>Liberal, collaborative consumption, fluctuation social </p>
+                            <div class="d-flex mx-4 mb-5">
+                                <button type="button" class="btn btn-outline-primary me-4">LEARN MORE</button>
+                                <button class="btn btn-outline-success " type="submit">CONTACT US</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/image-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption text-center mb-5 pb-5">
+                            <h3>WELCOME TO SOLID FINANCE</h3>
+                            <h2>Money Doesn’t Come Without Guidence</h2>
+                            <p>Liberal, collaborative consumption, fluctuation social </p>
+                            <div class="d-flex justify-content-center mb-5">
+                                <button type="button" class="btn btn-outline-primary me-4">LEARN MORE</button>
+                                <button class="btn btn-outline-success " type="submit">CONTACT US</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/image-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption text-end mb-5 pb-5">
+                            <h3>WELCOME TO SOLID FINANCE</h3>
+                            <h2>Money Doesn’t Come Without Guidence</h2>
+                            <p>Liberal, collaborative consumption, fluctuation social </p>
+                            <div class="d-flex justify-content-end mb-5">
+                                <button type="button" class="btn btn-outline-primary me-4">LEARN MORE</button>
+                                <button class="btn btn-outline-success " type="submit">CONTACT US</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- title with background image  -->
-    <section class="content bg" id="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-wrap ">
-                        <h2>WELCOME TO SOLID FINANCE</h2>
-                        <h1>START YOUR FUTURE FINANCIAL PLAN</h1>
-                        <P class="info"><i>Liberal, collaborative consumption,luctuation,social<br>
-                                analysis,rural united nations outcomes foundation deep engagement.</i></P>
-                        <a href="#" class="theme-btn btn-style-one mt-3 mx-5 ">Learn more</a>
-                        <a href="#" class="theme-btn btn-style-one mt-3 ">Contact us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- welcome section -->
-    <section class="welcome" id="welcome">
-        <div class="welcome-wrap mt-5 bg1">
+        <section>
             <div class="container">
-                <div class="row  ">
-                    <div class="col-12">
-                        <h3 class="heading">We are ready to help you</h3>
-                        <h1>Welcome To Solid Finance</h1>
-                        <p>Safety meaningful work reduce carbon emissions; policymakers fighting poverty against
-                            malnutrition<br>
-                            integrity countries affordable health care sanitation truth Millennium
-                            Development Goals.</p>
-
-                    </div>
-                </div>
-                <div class="row ">
-
-                    <div class="col-6   ">
-                        <div class="first d-flex mb-5">
-                            <span class="format">
-                                <i class="fa-solid fa-cannabis"></i></span>
-                            <div class="first1">
-                                <h2>Dedicated Team</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur<br>
-                                    adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6  ">
-                        <div class="second d-flex mb-5">
-                            <span class="format">
-                                <i class="fa-solid fa-people-group "></i></span>
-                            <div class="second1">
-                                <h2>Best Advisors</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur<br>
-                                    adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row pt-5">
+                    <h6 class="text-success py-2">We are ready to help you</h6>
+                    <h2 class="py-2">Welcome To Solid Finance</h2>
+                    <div class="bold-text pt-4">Safety meaningful work reduce carbon emissions; policymakers fighting
+                        poverty against malnutrition integrity countries affordable health care sanitation truth
+                        Millennium Development Goals.</div>
                 </div>
                 <div class="row">
-                    <div class="col-6 ">
-                        <div class="first d-flex mb-5">
-                            <span class="format">
-                                <i class="fa-brands fa-angellist"></i></span>
-                            <div class="first1">
-                                <h2>24/7 Supports</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur<br>
-                                    adipisicing elit.</p>
+                    <div class="col-lg-8 col-12">
+                        <div class="row pt-3">
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="me-3">
+                                    <i class="fa-solid fa-handshake custem-icon-border grey-icon p-4 fa-2x"></i>
+                                </div>
+                                <div>
+                                    <h4>Dedicated Team</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="me-3">
+
+                                    <i class="fa-solid fa-circle-check custem-icon-border grey-icon p-4 fa-2x"></i>
+                                </div>
+                                <div>
+                                    <h4>Best Advisors</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="me-3">
+
+                                    <i class="fa-solid fa-chart-line custem-icon-border grey-icon p-4 fa-2x"></i>
+                                </div>
+                                <div>
+                                    <h4>24/7</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="me-3">
+
+                                    <i class="fa-regular fa-dollar-sign custem-icon-border grey-icon p-4 fa-2x"></i>
+                                </div>
+                                <div>
+                                    <h4>quality service</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6  ">
-                        <div class="second d-flex mb-5">
-                            <span class="format">
-                                <i class="fa-solid fa-scale-balanced "></i></span>
-                            <div class="second1">
-                                <h2>quality service</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur<br>
-                                    adipisicing elit.</p>
-                            </div>
-                        </div>
+                    <div class="col-lg-4 col-12">
+                        <img src="assets/image/tree.jpg" alt="..." class="img-thumbnail border-none">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <!-- about our company section  -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="heading">About our company</h2>
+            <h6 class="heading text-success fw-bold">About our company</h6>
             <h1>Our company values</h1>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4 col-sm-text-start">
                     <div class="story-caption">
-                        <h3>We help you in different SITUATION</h3>
+                        <h6 class="fw-bold py-4">We help you in different SITUATION</h6>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veritatis nostrum velit alias
                         recusandae libero repellat cumque repellendus at error mollitia a deleniti, quibusdam nam ab
                         rem, voluptatem placeat porro iure.</p>
-                    <div>
-                        <ul style="list-style-type:circle">
-                            <li>
-                                Audit & Assurance
-                            </li>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul style="list-style-type:circle">
+                                <li>
+                                    Audit & Assurance
+                                </li>
 
-                            <li>Business Services</li>
+                                <li>Business Services</li>
 
-                            <li>IT Control Solutions</li>
+                                <li>IT Control Solutions</li>
 
 
-                            <li>Audit & Assurance</li>
-                        </ul>
-                    </div>
-                    <div class="right-content mx-5">
-                        <ul style="list-style-type:circle">
-                            <li>Year-End Tax Planning</li>
-                            <li>Financial Planning</li>
-                            <li>Business Services</li>
-                            <li>Tax Advisory Services</li>
-                        </ul>
+                                <li>Audit & Assurance</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <!-- <div class="right-content mx-5 float-right "> -->
+                            <ul style="list-style-type:circle">
+                                <li>Year-End Tax Planning</li>
+                                <li>Financial Planning</li>
+                                <li>Business Services</li>
+                                <li>Tax Advisory Services</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="story-caption">
-                        <h3> Story about SOLID FINANCE</h3>
+                        <h6 class="fw-bold py-4"> Story about SOLID FINANCE</h6>
                     </div>
                     <div class="video">
-                        <iframe width="450" height="315" src="https://www.youtube.com/embed/0o0kNeOyH98"
+                        <iframe width="300" height="315" src="https://www.youtube.com/embed/0o0kNeOyH98"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="bar px-5">
-                        <h3>Solid finance SKILL</h3>
+                        <h6 class="fw-bold py-4">Solid finance SKILL</h6>
                         <div class="s-bar d-flex">
                             <span class="resize">
                                 <i class="fa-brands fa-facebook"></i>
                             </span>
-                            <h5>
+                            <h6>
                                 SOCIAL MARKETING
-                            </h5>
+                            </h6>
                         </div>
                         <div class="progress ">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%"
@@ -342,7 +397,7 @@
                             <span class="resize">
                                 <i class="fa-brands fa-whatsapp"></i>
                             </span>
-                            <h5>BRANDING</h5>
+                            <h6>BRANDING</h6>
                         </div>
                         <div class="progress ">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%"
@@ -352,7 +407,7 @@
                             <span class="resize">
                                 <i class="fa-brands fa-twitter"></i>
                             </span>
-                            <h5>STRATEGY PLANNING</h5>
+                            <h6>STRATEGY PLANNING</h6>
                         </div>
                         <div class="progress ">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%"
@@ -362,7 +417,7 @@
                             <span class="resize">
                                 <i class="fa-solid fa-hashtag"></i>
                             </span>
-                            <h5> WEBSITE ANALYSIS</h5>
+                            <h6> WEBSITE ANALYSIS</h6>
                         </div>
                         <div class="progress ">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%"
@@ -374,393 +429,349 @@
             </div>
         </div>
     </section>
-    <!-- image section  -->
-    <section>
-        <div class="row pt-5">
-            <div class="col-12">
-                <div class="back">
-                    <div class="align">
-                        <h2 class="heading">We are ready to help you</h2>
-                        <span class="color">
-                            <h2>Solid finance
-                        </span>is n effortlessly,authentic,handcrafted design that suitable for<span class="color">
-                            <h2>any buisness.</h2>
-                        </span> </h2>
-                        <br>
-                        <br>
-                        <a href="#" class="theme-btn btn-style-one mt-3">GET STARTED NOW</a>
+    <!-- Background image -->
+    <section class="img-box-cust mt-4">
+        <div class="card-img-overlay text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12 col-8 m-auto text-center mt-5">
+                        <p class="card-text fw-bold">We are ready to help you</p>
+                        <h5 class="card-title">solid finance is an effortlessly,authentic, handcrafted design that
+                            suitable for any business</h5>
+                        <a href="#" class="bg-primary py-2 px-4 text-decoration-none fs-5 fw-bold">Get Started Now</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
     <!-- services  -->
     <section class="service">
         <div class="container">
-            <h3 class="headline pt-5">We are ready to help you</h3>
-            <h2 class="headline2 pb-3">Our Helpful Service</h1>
-                <div class="row">
-                    <div class="col-3 pb-5 ">
-                        <div class="cards d-flex  ">
-                            <div class="card">
-                                <div class="card-custom">
-                                    <div class="card-icon">
-                                        <div class="icon-size">
-                                            <i class="fa-solid fa-money-bill-transfer"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="text">
-                                            <h5 class="card-title">
-                                                <div class="title">
-                                                    Mutual Funds
-                                            </h5>
-                                        </div>
-                                        <p class="card-text" style="text-align: center;">
-
-                                            Indicator reproductive rights rural development truth fight. </p>
-                                        <a class="link" href="#" class="link primary">know more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- second  -->
-                    <div class="col-3 d-flex  pb-5  ">
-                        <div class="card">
+            <h6 class="headline pt-5 text-success fw-bold">We are ready to help you</h6>
+            <h2 class="headline2 pb-3">Our Helpful Service</h2>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-12 ">
+                    <div class="cards d-flex mb-3 ">
+                        <div class="card back-card">
                             <div class="card-custom">
-                                <div class="card-icon">
+                                <div class="card-icon ">
                                     <div class="icon-size">
-                                        <i class="fa-solid fa-sack-dollar"></i>
+                                        <i class="fa-solid fa-money-bill-transfer"></i>
                                     </div>
                                 </div>
-
                                 <div class="card-body">
                                     <div class="text">
                                         <h5 class="card-title">
-                                            <div class="title">
-                                                Cash Investment
+                                            <div class=" title ">
+                                                Mutual Funds
                                         </h5>
                                     </div>
-                                    <p class="card-text" style="text-align: center;">
+                                    <p class="card-text ">
 
                                         Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- third -->
-                    <div class="col-3 d-flex  pb-5 ">
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-car-burst"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                Personal Insurance
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- forth  -->
-                    <div class="col-3 d-flex pb-5 ">
-
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-piggy-bank"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                Texes Advisory
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <!-- fifth  -->
-
-                    <div class="col-3 d-flex  pb-5 ">
-
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-address-card"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                Industrial Insurance
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- sixth  -->
-                    </div>
-                    <div class="col-3 d-flex  pb-5 ">
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-group-arrows-rotate"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                Commodities
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- seventh  -->
-                    <div class="col-3 d-flex  pb-5 ">
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-restroom"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                Retirement
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- eighth  -->
-                    <div class="col-3 d-flex  pb-5 ">
-                        <div class="card">
-                            <div class="card-custom">
-                                <div class="card-icon">
-                                    <div class="icon-size">
-                                        <i class="fa-solid fa-hand-holding-dollar"></i>
-                                    </div>
-                                </div>
-
-                                <div class="card-body">
-                                    <div class="text">
-                                        <h5 class="card-title">
-                                            <div class="title">
-                                                saving & investing
-                                        </h5>
-                                    </div>
-                                    <p class="card-text" style="text-align: center;">
-
-                                        Indicator reproductive rights rural development truth fight. </p>
-                                    <a class="link" href="#" class="link primary">know more</a>
+                                    <a href="# " class="text-primary ">Know more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-        </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon text-center ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-sack-dollar "></i>
+                                </div>
+                            </div>
 
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Cash Investment
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
 
-
-
-
-
-
-
-    </section>
-    <section>
-        <div class="container-fluid">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6">
-
-                        <div class="img-wrap">
-                            <img src="/assets/image/man.JPG" alt="">
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                </div>
 
-                        <div class="containt ">
-                            <h3 class="write">We are ready to help you</h3>
-                            <h2 class="textt">Frequently Asked Questions</h2>
-                            <div class="accformat">
-                                <div class="accordion " id="accordionExample">
-                                    <div class="accordion-item bg-dark text-white">
-                                        <h2 class="accordion-header " id="headingOne">
-                                            <button class="accordion-button bg-dark text-white" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                                What payment methods are available?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>
-                                                </p>Iterative approaches to corporate strategy foster collaborative
-                                                thinking
+                <div class="col-md-3 col-sm-12 ">
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-car-burst "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Personal Insurance
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- forth  -->
+                <div class="col-md-3 col-sm-12 ">
+
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-piggy-bank "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Texes Advisory
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fifth  -->
+
+                <div class="col-md-3 col-sm-6 ">
+
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-address-card "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Industrial Insurance
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sixth  -->
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-group-arrows-rotate "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Commodities
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- seventh  -->
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-restroom "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            Retirement
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eighth  -->
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="card back-card mb-3 ">
+                        <div class="card-custom ">
+                            <div class="card-icon  ">
+                                <div class="icon-size ">
+                                    <i class="fa-solid fa-hand-holding-dollar "></i>
+                                </div>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="text ">
+                                    <h5 class="card-title  ">
+                                        <div class="title ">
+                                            saving & investing
+                                    </h5>
+                                </div>
+                                <p class="card-text ">
+
+                                    Indicator reproductive rights rural development truth fight. </p>
+                                <a href="# " class="text-primary ">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- image with frequently asked questions  -->
+    <section class="mt-4">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-12 col-md-12">
+                    <img src="assets/image/man.JPG" alt="..." class="img-thumbnail">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="containt bg-dark text-white ms-2">
+                        <h6 class="write ms-2 text-success fw-bold">We are ready to help you</h6>
+                        <h2 class="text ms-2">Frequently Asked Questions</h2>
+                        <div class="accformat ">
+                            <div class="accordion " id="accordionExample ">
+                                <div class="accordion-item bg-dark text-white ">
+                                    <h2 class="accordion-header " id="headingOne ">
+                                        <button class="accordion-button bg-dark text-white " type="button "
+                                            data-bs-toggle="collapse " data-bs-target="#collapseOne "
+                                            aria-expanded="true " aria-controls="collapseOne ">
+                                            What payment methods are available?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne " class="accordion-collapse collapse show "
+                                        aria-labelledby="headingOne " data-bs-parent="#accordionExample ">
+                                        <div class="accordion-body ">
+                                            <p>
+                                            </p>Iterative approaches to corporate strategy foster collaborative thinking
+                                            to further the overall value proposition. Organically grow the holistic
+                                            world view of disruptive innovation via workplace diversity and
+                                            empowerment. At the end of the day, going forward, a new normal that has
+                                            evolved from generation X is on the runway heading towards a streamlined
+                                            cloud solution.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item bg-dark text-white ">
+                                    <h2 class="accordion-header " id="headingTwo ">
+                                        <button class="accordion-button collapsed bg-dark text-white " type="button "
+                                            data-bs-toggle="collapse " data-bs-target="#collapseTwo "
+                                            aria-expanded="false " aria-controls="collapseTwo ">
+                                            How can i get financial aid to live off campus?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo " class="accordion-collapse collapse "
+                                        aria-labelledby="headingTwo " data-bs-parent="#accordionExample ">
+                                        <div class="accordion-body ">
+                                            <p>Iterative approaches to corporate strategy foster collaborative thinking
                                                 to further the overall value proposition. Organically grow the holistic
                                                 world view of disruptive innovation via workplace diversity and
-                                                empowerment.
-                                                At the end of the day, going forward, a new normal that has evolved from
-                                                generation X is on the runway heading towards a streamlined cloud
-                                                solution.
-                                            </div>
+                                                empowerment. At the end of the day, going forward, a new normal that has
+                                                evolved from generation X is on the runway heading towards a streamlined
+                                                cloud solution.</p>
                                         </div>
                                     </div>
-                                    <div class="accordion-item bg-dark text-white">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed bg-dark text-white" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                How can i get financial aid to live off campus?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Iterative approaches to corporate strategy foster collaborative
-                                                    thinking
-                                                    to further the overall value proposition. Organically grow the
-                                                    holistic
-                                                    world view of disruptive innovation via workplace diversity and
-                                                    empowerment. At the end of the day, going forward, a new normal that
-                                                    has
-                                                    evolved from generation X is on the runway heading towards a
-                                                    streamlined
-                                                    cloud solution.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item bg-dark text-white">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed bg-dark text-white" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                Does FinanPress share my information with others?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Iterative approaches to corporate strategy foster collaborative
-                                                    thinking
-                                                    to further the overall value proposition. Organically grow the
-                                                    holistic
-                                                    world view of disruptive innovation via workplace diversity and
-                                                    empowerment. At the end of the day, going forward, a new normal that
-                                                    has
-                                                    evolved from generation X is on the runway heading towards a
-                                                    streamlined
-                                                    cloud solution.
+                                </div>
+                                <div class="accordion-item bg-dark text-white ">
+                                    <h2 class="accordion-header " id="headingThree ">
+                                        <button class="accordion-button collapsed bg-dark text-white " type="button "
+                                            data-bs-toggle="collapse " data-bs-target="#collapseThree "
+                                            aria-expanded="false " aria-controls="collapseThree ">
+                                            Does FinanPress share my information with others?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree " class="accordion-collapse collapse "
+                                        aria-labelledby="headingThree " data-bs-parent="#accordionExample ">
+                                        <div class="accordion-body ">
+                                            <p>Iterative approaches to corporate strategy foster collaborative thinking
+                                                to further the overall value proposition. Organically grow the holistic
+                                                world view of disruptive innovation via workplace diversity and
+                                                empowerment. At the end of the day, going forward, a new normal that has
+                                                evolved from generation X is on the runway heading towards a streamlined
+                                                cloud solution.
 
-                                                </p>
-                                            </div>
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="accordion-item bg-dark text-white">
-                                        <h2 class="accordion-header" id="headingFour">
-                                            <button class="accordion-button collapsed bg-dark text-white" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                aria-expanded="false" aria-controls="collapseFour">
-                                                How do i link multiple accounts with my profile?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse"
-                                            aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Iterative approaches to corporate strategy foster collaborative
-                                                    thinking
-                                                    to further the overall value proposition. Organically grow the
-                                                    holistic
-                                                    world view of disruptive innovation via workplace diversity and
-                                                    empowerment. At the end of the day, going forward, a new normal that
-                                                    has
-                                                    evolved from generation X is on the runway heading towards a
-                                                    streamlined
-                                                    cloud solution.</p>
-                                            </div>
+                                </div>
+                                <div class="accordion-item bg-dark text-white ">
+                                    <h2 class="accordion-header " id="headingFour ">
+                                        <button class="accordion-button collapsed bg-dark text-white " type="button "
+                                            data-bs-toggle="collapse " data-bs-target="#collapseFour "
+                                            aria-expanded="false " aria-controls="collapseFour ">
+                                            How do i link multiple accounts with my profile?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour " class="accordion-collapse collapse "
+                                        aria-labelledby="headingFour " data-bs-parent="#accordionExample ">
+                                        <div class="accordion-body ">
+                                            <p>Iterative approaches to corporate strategy foster collaborative thinking
+                                                to further the overall value proposition. Organically grow the holistic
+                                                world view of disruptive innovation via workplace diversity and
+                                                empowerment. At the end of the day, going forward, a new normal that has
+                                                evolved from generation X is on the runway heading towards a streamlined
+                                                cloud solution.</p>
                                         </div>
                                     </div>
-                                    <div class="accordion-item bg-dark text-white">
-                                        <h2 class="accordion-header" id="headingFive">
-                                            <button class="accordion-button collapsed bg-dark text-white" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                                aria-expanded="false" aria-controls="collapseFive">
-                                                How can i get financial aid to live off campus?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse"
-                                            aria-labelledby="headingFifth" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Iterative approaches to corporate strategy foster collaborative
-                                                    thinking
-                                                    to further the overall value proposition. Organically grow the
-                                                    holistic
-                                                    world view of disruptive innovation via workplace diversity and
-                                                    empowerment. At the end of the day, going forward, a new normal that
-                                                    has
-                                                    evolved from generation X is on the runway heading towards a
-                                                    streamlined
-                                                    cloud solution.
+                                </div>
+                                <div class="accordion-item bg-dark text-white ">
+                                    <h2 class="accordion-header " id="headingFive ">
+                                        <button class="accordion-button collapsed bg-dark text-white " type="button "
+                                            data-bs-toggle="collapse " data-bs-target="#collapseFive "
+                                            aria-expanded="false " aria-controls="collapseFive ">
+                                            How can i get financial aid to live off campus?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive " class="accordion-collapse collapse "
+                                        aria-labelledby="headingFifth " data-bs-parent="#accordionExample ">
+                                        <div class="accordion-body ">
+                                            <p>Iterative approaches to corporate strategy foster collaborative thinking
+                                                to further the overall value proposition. Organically grow the holistic
+                                                world view of disruptive innovation via workplace diversity and
+                                                empowerment. At the end of the day, going forward, a new normal that has
+                                                evolved from generation X is on the runway heading towards a streamlined
+                                                cloud solution.
 
-                                                </p>
-                                            </div>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -769,133 +780,131 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </div>
     </section>
     <!-- dedicated team content  -->
     <section>
-        <div class="container-fluid">
-            <h3 class="headline pt-5">We are ready to help you</h3>
+        <div class="container">
+            <h6 class="headline pt-5 text-success fw-bold">We are ready to help you</h6>
             <h2 class="headline2 pb-3">Our dedicated team</h1>
                 <div class="row">
-                    <div class="col-3 d-flex">
-
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="/assets/image/buisnessman5.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="card-text headline">Charles Nicholes
+                    <div class="col-lg-3 col-12  col-md-6">
+                        <div class="card mt-3 ">
+                            <img class="card-img-top" src="assets/image/buisnessman5.jpg " alt="Card image cap">
+                            <div class="card-body ">
+                                <h3 class="card-text headline ">Charles Nicholes
             </h2>
             <h6>Founder & CEO</h6>
         </div>
         </div>
         </div>
-        <div class="col-3 d-flex">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="/assets/image/buisnessman2.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-text headline">John Martin</h2>
+        <div class="col-lg-3 col-12  col-md-6">
+            <div class="card mt-3 ">
+                <img class="card-img-top" src="assets/image/buisnessman2.jpg " alt="Card image cap ">
+                <div class="card-body ">
+                    <h3 class="card-text headline ">John Martin</h2>
                         <h6>SENIOR ADVISOR</h6>
                 </div>
             </div>
         </div>
 
-        <div class="col-3 d-flex">
+        <div class="col-lg-3 col-12 col-md-6">
 
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="/assets/image/buisnessman4.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-text headline">William Rickmen</h2>
+            <div class="card mt-3 ">
+                <img class="card-img-top " src="assets/image/buisnessman4.jpg " alt="Card image cap ">
+                <div class="card-body ">
+                    <h3 class="card-text headline ">William Rickmen</h2>
                         <h6>FINANCIAL ADVISOR</h6>
                 </div>
             </div>
         </div>
-        <div class="col-3 d-flex">
+        <div class="col-lg-3 col-12  col-md-6">
 
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="/assets/image/buisnessman3.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-text headline">Devid Fernando</h2>
+            <div class="card mt-3 ">
+                <img class="card-img-top " src="assets/image/buisnessman3.jpg " alt="Card image cap ">
+                <div class="card-body ">
+                    <h3 class="card-text headline ">Devid Fernando</h2>
                         <h6>Administrator</h6>
                 </div>
             </div>
         </div>
     </section>
-    <!-- hndshake with icons  -->
-    <section>
-        <div class="container-fluid">
+    <!-- handshake with icons  -->
+    <section class="handshake">
+        <div class="container">
+            <div class="row text-white text-center">
+                <div class="col-6 col-md-6 col-lg-3 pt-5">
+                    <div class="itemsalign ">
+                        <div class="iconformat ">
+                            <i class="bi bi-house "></i>
+                        </div>
+                        <h1><strong>150</strong></h1>
+                        <h6>YEARS OF <br> EXPERIENCES
+                        </h6>
+                    </div>
 
-            <div class="row pt-5 ">
-                <div class="handshake">
-                    <div class="tr d-flex">
-                        <div class="col-3 ">
-                            <div class="itemsalign">
-                                <div class="iconformat">
-                                    <i class="bi bi-house"></i>
-                                </div>
-                                <h1 class="textformat"><strong>150</strong></h1>
-                                <h4 class="subtext">YEARS OF <br>
-                                    EXPERIENCES</h4>
-                            </div>
+                </div>
 
+                <div class="col-6 col-md-6 col-lg-3 pt-5">
+                    <div class="itemsalign ">
+                        <div class="iconformat ">
+                            <i class="bi bi-droplet "></i>
+                        </div>
+                        <h1><strong>456</strong></h1>
+                        <h6>PROFESSIONAL <br> ADVISORS
+                        </h6>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3 pt-5">
+                    <div class="itemsalign ">
+                        <div class="iconformat ">
+                            <i class="bi bi-people "></i>
                         </div>
 
-                        <div class="col-3 ">
-                            <div class="itemsalign">
-                                <div class="iconformat">
-                                    <i class="bi bi-droplet"></i>
-                                </div>
-                                <h1 class="textformat"><strong>456</strong></h1>
-                                <h4 class="subtext">PROFESSIONAL <br>
-                                    ADVISORS</h4>
+                        <h1><strong>274</strong></h1>
+                        <h6>TOTAL <br> CLIENTS
+                        </h6>
+                    </div>
 
-                            </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3 pt-5">
+                    <div class="itemsalign ">
+                        <div class="iconformat ">
+                            <i class="bi bi-house "></i>
                         </div>
-                        <div class="col-3  ">
-                            <div class="itemsalign">
-                                <div class="iconformat">
-                                    <i class="bi bi-people"></i>
-                                </div>
-
-                                <h1 class="textformat"><strong>274</strong></h1>
-                                <h4 class="subtext">TOTAL <br>
-                                    CLIENTS</h4>
-                            </div>
-
-                        </div>
-                        <div class="col-3 ">
-                            <div class="itemsalign">
-                                <div class="iconformat">
-                                    <i class="bi bi-house"></i>
-                                </div>
-                                <h1 class="textformat"><strong>1248</strong></h1>
-                                <h4 class="subtext">TOTAL <br>
-                                    PROJECTS</h4>
-                            </div>
-                        </div>
+                        <h1><strong>1248</strong></h1>
+                        <h6>TOTAL <br> PROJECTS
+                        </h6>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+        </div>
     </section>
     <!-- client about us section  -->
     <section>
-        <div class="container-fluid">
-            <div class="row pt-5 justify-content-evenly">
-                <div class="col-12">
-                    <div class="about-data pt-5">
+        <div class="container-fluid ">
+            <div class="row pt-5 justify-content-evenly ">
+                <div class="col-12 ">
+                    <div class="about-data pt-3 ">
 
-                        <h2 class="headline">Testimonials</h2>
+                        <h2 class="headline ">Testimonials</h2>
                         <h1>Happy Clients About Us</h1>
                         <p>“How to pursue pleasures rationally encounters consequences that are extremely painful nor
                             against sed <br> is there anyone who loves or pursues or desires to obtain pain of itself,
-                            because it great pleasure explores<br> human happiness”
+                            because it great pleasure explores<br> human
+                            happiness”
                     </div>
                     </p>
                     <div class="imgfor d-flex">
-                        <img class="imgceo mx-3" src="/assets/image/ceopic.jpg" alt="">
-                        <div class="headline py-2">
+                        <img class="imgceo mx-3 " src="assets/image/ceopic.jpg " alt=" ">
+                        <div class="headline py-2 ">
                             <h4>Annie Philip</h4>
-                            <h6 class="post">CEO & FOUNDER</h6>
+                            <h6 class="post ">CEO & FOUNDER</h6>
                         </div>
                     </div>
                 </div>
@@ -904,73 +913,330 @@
     </section>
     <!-- news update section -->
     <section>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row pt-5 d-flex ">
-                <h4 class="headline py-2">News update</h4>
+                <h4 class="headline py-2 ">News update</h4>
                 <h1>Latest News & Articles</h1>
-                <div class="col-4  pt-5 d-flex " style="justify-content: space-evenly;">
+                <div class="col-md-6 col-lg-4 col-12">
 
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="/assets/image/blog-image-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Seminar for improve your all business growth.</h5>
-                            <span class="inst">post by : admin</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
+                    <div class="card ">
+                        <img class="card-img-top " src="assets/image/blog-image-1.jpg " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Seminar for improve your all business growth.</h5>
+                            <span class="inst text-success fw-bold fs-6">post by : admin</span>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
                                 doloribus maiores aspernatur omnis neque.</p>
 
                         </div>
                     </div>
 
                 </div>
-                <div class="col-4  pt-5 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-6 col-lg-4 col-12">
 
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="/assets/image/blog-image-2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">It’s Time to Design Your Dream Outdoor Living Space</h5>
-                            <span class="inst">post by : admin</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
+                    <div class="card ">
+                        <img class="card-img-top " src="assets/image/blog-image-2.jpg " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">It’s Time to Design Your Dream Outdoor Living Space</h5>
+                            <span class="inst text-success fw-bold fs-6">post by : admin</span>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
                                 doloribus maiores aspernatur omnis neque.</p>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-4  pt-5 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-6 col-lg-4 col-12">
 
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="/assets/image/blog-image-3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">It’s Time to Design Your Dream Outdoor Living Space</h5>
-                            <span class="inst">post by : admin</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
+                    <div class="card">
+                        <img class="card-img-top" src="assets/image/blog-image-3.jpg" alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">It’s Time to Design Your Dream Outdoor Living Space</h5>
+                            <span class="inst text-success fw-bold fs-6">post by : admin</span>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta
                                 doloribus maiores aspernatur omnis neque.</p>
 
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
+        </div>
+    </section>
+    <!-- sponcere  -->
+    <section class="sponcere ">
+        <div class="container-fluid ">
+            <div class="row pt-4 py-4">
+                <div class="col-lg-6 col-12">
+                    <div class="inner-box bg3 ">
+                        <div class="sec-title-2 text-center">
+                            <h3 class="text-success fw-bolder">appointment</h3>
+                            <h2 class="">Get In Touch</h2>
+                        </div>
+                        <div class="consultation-form ">
+                            <form method="post " action=" ">
+                                <div class="row ">
+                                    <div class="col-12 col-xl-6">
+                                        <div class="form-group ">
+                                            <div class="box ">
+                                                <span class="icon fa fa-user text-white"></span>
+                                                <input type="text " class="form-format " name="name " value=" "
+                                                    placeholder="Name " required=" ">
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group ">
+                                            <div class="box pt-3">
+                                                <span class="icon fa fa-envelope text-white"></span>
+
+                                                <input type="email " class="form-format " name="name " value=" "
+                                                    placeholder="E-Mail (optional) ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="form-group ">
+                                            <div class="box ">
+                                                <span class="icon fa fa-phone text-white"></span>
+                                                <input type="text " class="form-format mt-2" name="phone " value=" "
+                                                    placeholder="your phone ">
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group ">
+                                            <div class="box pt-3 ">
+                                                <i class="fa-solid fa-message text-white"></i>
+                                                <select name="Select Category " class="form-format ">
+                                                    <span class="icon fa fa-plus "></span>
+                                                    <span class="icon fa fa-plus "></span>
+                                                    <option value=" " selected="selected ">I Would like to Discuss
+                                                    </option>
+                                                    <option value="General Motors ">Investment</option>
+                                                    <option value="Land Rover ">Insurance</option>
+                                                    <option value="Lexus ">Retirement</option>
+                                                    <option value="Lincoln ">Commodities</option>
+                                                    <option value="Lincoln ">saving &amp; investing</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="form-group pt-3 ">
+                                            <textarea name="message " class="textmsg "
+                                                placeholder="Special Request... "></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="text-center pt-3 "><button type="submit "
+                                                class="theme-btn btn-style-one px-5 py-2 bg-primary text-white btn-cust ">SEND
+                                                REQUEST</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="imgcol bg4 py-4">
+                        <div class="row ">
+                            <div class="col-12 text-center">
+                                <img src=" assets/image/c-icon1.jpg " class="img-fluid " alt=" ">
+
+
+                                <img src="assets/image/c-icon2.jpg " class="img-fluid mt-2" alt=" ">
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center mt-2">
+
+                            <img src="assets/image/c-icon3.jpg " class="img-fluid " alt=" ">
+                        </div>
+                        <div class="col-12 text-center mt-2">
+
+                            <img src="assets/image/c-icon4.jpg " class="img-fluid " alt=" ">
+
+
+                            <img src="assets/image/c-icon5.jpg " class="img-fluid mt-2" alt=" ">
+                        </div>
+                        <div class="col-12 text-center mt-2">
+                            <img src="assets/image/c-icon6.jpg " class="img-fluid " alt=" ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscription -->
+    <section class="subscription">
+        <div class="container-fluid ">
+            <div class="row bg5 mt-5">
+                <div class="col-lg-6 col-12 text-center ">
+
+                    <div class="iconmail ">
+                        <i class="fa-brands fa-facebook" style="font-size: 64px;"></i>
+                        <span class="subscribe ps-2">SUBSCRIBE </span>TO GET IN TOUCH
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 text-center ">
+                    <form action="/action_page.php">
+
+                        <input type="text" id="text" name="text" class="px-4 py-2 mx-2 p-sm-2 m-sm-auto"
+                            placeholder="Enter your email">
+                        <button
+                            class="sb bg-primary text-white px-5 py-2 m-2 btn-outline-success p-sm-2 m-sm-auto ">SUBSCRIBE</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last_items bg-dark ">
+        <div class="container">
+            <div class="row text-white mt-5 ">
+                <div class="col-md-3 col-sm-12 mt-2">
+
+                    <img src="assets/image/logo.png" class="imagefluid" alt=""><br><br>
+                    <div>
+                        <p class="justify-text">"Medical supplies public service courageous United Nations complexity
+                            working
+                            families impact. Democracy disrupt transform the world; rural development.</p>
+                    </div>
+                    <hr>
+                    Follow:
+                    <div class="row">
+                        <div class="col-6 ">
+
+                            <span class=medf pe-2><i class="fa-brands fa-facebook"></i></span>
+                            facebook <br><br>
+                            <span class=medf><i class="fa-brands fa-google-plus-g"></i></span>
+                            google-plus<br><br>
+                            <span class=medf><i class="fa-brands fa-whatsapp"></i></span>
+                            whatsapp
+                        </div>
+                        <div class="col-6">
+                            <span class=medf> <i class="fa-brands fa-twitter"></i></span>
+                            twitter<br><br>
+                            <span class=medf> <i class="fa-brands fa-instagram"></i></span>
+                            instagram<br><br>
+
+                            <span class=medf> <i class="fa-brands fa-skype"></i></span>
+                            skype
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <h4 class="quicklink mt-5 pt-5 ">QUICK LINKS</h4>
+                    <ul class="links ">
+                        <li class="mt-3">Mutual funds</li>
+                        <li class="mt-3">
+                            Cash Investment
+                        </li>
+                        <li class="mt-3">
+                            Personal Insurance
+                        </li>
+                        <li class="mt-3">
+                            Texes Advisory
+                        </li>
+                        <li class="mt-3">
+                            Industrial Insurance
+                        </li>
+                        <li class="mt-3">
+                            Retirement
+                        </li>
+                        <li class="mt-3">
+                            Saving & Investing
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <h4 class="quicklink mt-5 pt-5">CONTACT INFO</h4>
+                    <span> <i class="icon fa fa-phone pe-2 mt-2"></i></span> +(012) 345 6789<br>
+                    <span> <i class="icon fa fa-envelope pe-2 mt-3"></i></span>
+                    <span class="mt-3">Email: info@shifencoach.com</span><br>
+                    <span> <i class="icon fa fa-paper-plane pe-2 mt-3 "></i></span>
+                    <span class="justify-text mt-2"> Office: 1234 Bunker Street, Melbourne, Australia</span>
+                    <form action="/action_page.php">
+
+                        <input type="text" id="text" name="text" class="form-format mt-3" placeholder="Your email">
+                        <!-- <button type="submit" class="theme-btn d-flex"><span class="icon fa fa-paper-plane"></span></button> -->
+                </div>
+                <!-- <button class="sb bg-primary text-white px-5 py-3 btn-outline-success ">SUBSCRIBE</button> -->
+                </form>
+
+
+
+                <div class="col-md-3 col-sm-12 pt-3">
+                    <h4 class="quicklink mt-3 pt-5 ">RECENT CLASSES</h4>
+                    <div class="last">
+
+                        <div class="last-content">
+
+                            <div class="first d-flex">
+                                <div class="row">
+                                    <div class="content d-flex ">
+                                        <div class="col-2">
+                                            <figure class="post-thumb"><a href="#"><img src="assets/image/last-img.jpg"
+                                                        alt=""></a></figure>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="mx-5 justify-text"><a href="#">Investment accessibility, new
+                                                    approaches takeholders.</a></h6>
+                                            <i class="time mx-5"><span class="fa fa-calendar"></span> 21.06.2.016</i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<hr>
+                            <div class="second d-flex">
+                                <div class="row mt-5">
+                                    <div class="content d-flex ">
+                                        <div class="col-2">
+                                            <figure class="post-thumb"><a href="#"><img src="assets/image/last-img.jpg"
+                                                        alt=""></a></figure>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="mx-5 justify-text"><a href="#">Investment accessibility, new
+                                                    approaches takeholders.</a></h6>
+                                            <i class="time mx-5"><span class="fa fa-calendar"></span> 21.06.2.016</i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<hr>
+                            <div class="third d-flex">
+                                <div class="row mt-5">
+                                    <div class="content d-flex ">
+                                        <div class="col-2">
+                                            <figure class="post-thumb"><a href="#"><img src="assets/image/last-img.jpg"
+                                                        alt=""></a></figure>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="mx-5 justify-text"><a href="#">Investment accessibility, new
+                                                    approaches takeholders.</a></h6>
+                                            <i class="time mx-5"><span class="fa fa-calendar"></span> 21.06.2.016</i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
 
     </section>
+    <footer class="futer text-center bg-dark text-white py-5">
+        Copyright © 2016. All Rights Reserved Shifen Coach
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "></script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
 
 </html>
