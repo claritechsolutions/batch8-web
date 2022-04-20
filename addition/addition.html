@@ -14,15 +14,24 @@
 </head>
 
 <body>
-  <h1>Addition</h1>
-   <input type="number" id="firstN">
-    <label>+</label>
-    <input type="number" id="secondN">
+  <div class="text-center mt-5">
+  <h1>Calculations</h1>
+   <input type="text" id="firstN">
+   <select name="" id="operator">
+     <option value="+">+</option>
+     <option value="-">-</option>
+     <option value="X">X</option>
+     <option value="/">/</option>
+   </select>
+    <input type="text" id="secondN">
     <div class="col-12 m-3">
-      <button class="btn-dark" onclick="answer()">Addition</button>
-      <input type="number" id="ans">
+      <button class="btn-dark" onclick="answer()">Answer</button>
+      <input type="text" id="ans">
     </div>
+    <button class="btn-dark" onclick="compare()">Comapare</button>
    <script src="addition.js"></script>
+   <h2 id="greater than"></h2>
+  </div>
 </body>
 
 </html>
