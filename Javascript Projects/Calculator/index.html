@@ -13,46 +13,56 @@
 
 <body>
 
-    <div class="container">
+    <div class="container d-flex flex-column justify-content-center align-content-center" style="max-width: 15em;">
+        <div class="row bg-dark text-end p-0 m-0" id="display">
+            <div class="text-secondary px-2" id="previousValue">0</div>
+            <div class="text-white px-2" id="currentValue">0</div>
+        </div>
+        <div class="row">
+            <button class="col-3 operator_pls">+</button>
+            <button class="col-3 operator_min">-</button>
+            <button class="col-3 operator_mul">*</button>
+            <button class="col-3 operator_div">÷</button>
+        </div>
+        <div class="row">
 
-        <div class="calculator">
-            <div class="calculator__display">
-                <div class="text-secondary" id="previousValue">0</div>
-                <div id="currentValue">0</div>
-            </div>
+            <div class="col-9">
+                <div class="row">
+                    <button class="col-4 number_7">7</button>
+                    <button class="col-4 number_8">8</button>
+                    <button class="col-4 number_9">9</button>
 
-            <div class="calculator__keys">
-                <button class="operator">+</button>
-                <button class="operator">-</button>
-                <button class="operator">*</button>
-                <!-- <button>&times;</button> -->
-                <button class="operator">÷</button>
-                <button class="number">7</button>
-                <button class="number">8</button>
-                <button class="number">9</button>
-                <button class="number">4</button>
-                <button class="number">5</button>
-                <button class="number">6</button>
-                <button class="number">1</button>
-                <button class="number">2</button>
-                <button class="number">3</button>
-                <button class="number">0</button>
-                <button class="number">.</button>
-                <button class="clearAll">AC</button>
-                <button class="key-equal">=</button>
+                </div>
+
+                <div class="row">
+                    <button class="col-4 number_4">4</button>
+                    <button class="col-4 number_5">5</button>
+                    <button class="col-4 number_6">6</button>
+                </div>
+                <div class="row">
+                    <button class="col-4 number_1">1</button>
+                    <button class="col-4 number_2">2</button>
+                    <button class="col-4 number_3">3</button>
+                </div>
+
+                <div class="row">
+                    <button class="col-4 number_0">0</button>
+                    <button class="col-4 number_dot">.</button>
+                    <button class="col-4 clearAll">AC</button>
+
+                </div>
             </div>
+            <button class="key-equal col-3" style="background-color: rgb(242, 177, 58);">=</button>
         </div>
     </div>
-
-
-
-    <script src="app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+   
 </body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 
 </html>

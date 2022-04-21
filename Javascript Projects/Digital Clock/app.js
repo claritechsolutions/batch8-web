@@ -1,13 +1,13 @@
 function updateClock(){
     var now = new Date();
     var dname = now.getDay();
-    mo = now.getMonth();
-    dnum = now.getDate();
-    yr = now.getFullYear();
-    hou = now.getHours();
-    min = now.getMinutes();
-    sec = now.getSeconds();
-    pe = "AM";
+    var mo = now.getMonth();
+    var dnum = now.getDate();
+    var yr = now.getFullYear();
+    var hou = now.getHours();
+    var min = now.getMinutes();
+    var sec = now.getSeconds();
+    var pe = "AM";
 
     if(hou==0){
         hou =12;
