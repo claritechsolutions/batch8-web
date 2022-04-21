@@ -1,5 +1,5 @@
 
-if (new Date().getHours() < 18) {
+if (new Date().getHours() < 12) {
   document.getElementById("demo").innerHTML = "Good day!";
 }
 function myFunction() {
