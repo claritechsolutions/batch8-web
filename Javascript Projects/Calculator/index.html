@@ -14,48 +14,55 @@
 <body>
 
     <div class="container" style="max-width: 15em;">
-        <div class="row bg-dark text-end p-0 m-0" id="display">
-            <div class="text-secondary px-2" id="previousValue">0</div>
-            <div class="text-white px-2" id="currentValue">0</div>
+        <div class="row bg-dark text-end" id="display">
+            <input placeholder="0" class="text-secondary text-end bg-dark border-0 px-2" id="previousValue"></input>
+            <input placeholder="0" class="text-white text-end bg-dark border-0 px-2" id="currentValue"></input>
         </div>
         <div class="row">
-            <button class="col-3 operator_pls">+</button>
-            <button class="col-3 operator_min">-</button>
-            <button class="col-3 operator_mul">*</button>
-            <button class="col-3 operator_div">÷</button>
+            <button class="col-3">+</button>
+            <button class="col-3">-</button>
+            <button class="col-3">x</button>
+            <button class="col-3">÷</button>
         </div>
         <div class="row">
 
             <div class="col-9">
                 <div class="row">
-                    <button class="col-4 number_7">7</button>
-                    <button class="col-4 number_8">8</button>
-                    <button class="col-4 number_9">9</button>
+                    <button class="col-4">7</button>
+                    <button class="col-4">8</button>
+                    <button class="col-4">9</button>
 
                 </div>
 
                 <div class="row">
-                    <button class="col-4 number_4">4</button>
-                    <button class="col-4 number_5">5</button>
-                    <button class="col-4 number_6">6</button>
+                    <button class="col-4">4</button>
+                    <button class="col-4">5</button>
+                    <button class="col-4">6</button>
                 </div>
                 <div class="row">
-                    <button class="col-4 number_1">1</button>
-                    <button class="col-4 number_2">2</button>
-                    <button class="col-4 number_3">3</button>
+                    <button class="col-4">1</button>
+                    <button class="col-4">2</button>
+                    <button class="col-4">3</button>
                 </div>
 
                 <div class="row">
-                    <button class="col-4 number_0">0</button>
-                    <button class="col-4 number_dot">.</button>
-                    <button class="col-4 clearAll">AC</button>
+                    
 
                 </div>
             </div>
-            <button class="key-equal col-3" style="background-color: rgb(242, 177, 58);">=</button>
+            <button class="col-3" style="background-color: rgb(242, 177, 58);">=</button>
+            
+            
+        </div>
+        <div class="row">
+            <button class="col-3">0</button>
+                <button class="col-3">.</button>
+                <button class="col-3">Ans</button>
+                <button class="col-3">C</button>
+            
         </div>
     </div>
-   
+
 </body>
 <script src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
