@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <h1>Trial</h1>
+            <input type="number" id="abc">
+            <select name="maths" id="maths">
+                <option value="Addition">+</option>  
+                <option value="Multiplication">x</option>
+                <option value="Subtraction">-</option>
+                <option value="Devide">/</option>
+            </select>
+            <input type="number" id="abcd"><br><br>
+            <button onclick="swtchTest()">Result</button> 
+            <input id="result">
+        <input type="text" id="result">
+    </div>
+    <script>
+         function swtchTest () {
+             var a = document.getElementById(abc).value;
+             var b = document.getElementById(abcd).value;
+             var operation = document.getElementById("maths").value;
+                switch(swtchTest){
+                case "Addition":
+                    var sum = a+b;
+                    document.write("Addition of two number is" + sum);
+                    break;
+
+                    case "Subtraction":
+                    var sub = a-b;
+                    document.write("subtraction of two number is" + sub);
+                    break;
+
+                    case "Multiplication":
+                    var mul = a*b;
+                    document.write("Multiplication of two number is" + mul);
+                    break;
+
+                    case "Devide":
+                    var mul = a*b;
+                    document.write("Devidation of two number is" + mul);
+                    break;
+                default :
+                document.write("Selected input is not correct");
+
+                }
+
+         }
+</script>
+
+</body>
+</html>

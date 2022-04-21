@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Trial</h1>
+    <input type="text" id="ab">
+
+    <select name="" id="maths">
+        <option value="Addition">Addition</option>
+        <option value="Multiplication">Multiplication</option>
+        <option value="Substraction">Substraction</option>
+        <option value="Division">Division</option>
+    </select>
+
+    <input type="text" id="abc"><br><br>
+
+    <button type="submit" onclick="swtchTest()">Result</button>
+
+    <script>
+        function swtchTest() {
+            var a = parseInt(document.getElementById("ab").value);
+            var b = parseInt(document.getElementById("abc").value);
+            var operation = document.getElementById("maths").value;
+
+            if (operation === "Addition") {
+                document.getElementById("result").value = a + b;
+            }
+            else if (operation === "Substraction") {
+                document.getElementById("result").value = a - b;
+
+            }
+            else if (operation === "Multiplication") {
+                document.getElementById("result").value = a * b;
+
+            }
+            else if (operation === "Division") {
+                document.getElementById("result").value = a / b;
+
+            }
+
+
+            switch (operation) {
+                case "Addition":
+                    document.getElementById("switch").value = a + b;
+                    break
+
+                case "Substraction":
+                    document.getElementById("switch").value = a - b;
+                    break
+
+                case "Multiplication":
+                    document.getElementById("switch").value = a * b;
+                    break
+                case "Division":
+                    document.getElementById("switch").value = a / b;
+                    break
+
+
+            }
+
+        }
+    </script>
+    <input type="" id="result">
+    <input type="text" id="switch">
+</body>
+
+</html>
