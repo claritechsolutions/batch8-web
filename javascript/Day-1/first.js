@@ -1,0 +1,1 @@
+console.log('First External Script from JS file');
