@@ -22,6 +22,15 @@ for (item of buttons) {
             calc = "";
             screen.value = calc;
         }
+        else if (buttonText == 'DEL') {
+            calc = screen.value.substr(0, screen.value.length - 1);
+            screen.value = calc;
+        }
+        else if (buttonText == 'AC') {
+            calc = "";
+            screen.value = calc;
+            prev.value = calc;
+        }
         else if (buttonText == '=') {
 
             calc = eval(calc);
