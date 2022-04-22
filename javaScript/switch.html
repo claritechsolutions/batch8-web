@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="demo"></p> 
+   <script>
+       var day;
+       switch(new Date().getDay())
+       {
+           case 0:
+               day=document.getElementById("demo").innerHTML="sunday"  ;
+               break;
+               case 1:
+               day=document.getElementById("demo").innerHTML="Monday"  ;
+               break;
+               case 2:
+               day=document.getElementById("demo").innerHTML="Tuesday"  ;
+               break;
+               case 3:
+               day=document.getElementById("demo").innerHTML="Wednesday"  ;
+               break;
+               case 4:
+               day=document.getElementById("demo").innerHTML="Thursday"  ;
+               break;
+               
+               case 5:
+               day=document.getElementById("demo").innerHTML="Friday"  ;
+               break;
+               case 6:
+               day=document.getElementById("demo").innerHTML="Saterday"  ;
+               break;
+                 }
+   </script>
+</body>
+</html>

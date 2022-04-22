@@ -1,0 +1,32 @@
+let userDetail=[
+    user1={
+        name:"amruta",
+        id:"2",
+        class:"IT",
+        phone:"123456",
+        address:"baramati"
+        },
+    user2={
+        name:"abc",
+        id:"3",
+        class:"IT",
+        phone:"123456",
+        address:"pune"
+    },
+    user3={
+        name:"xyz",
+        id:"4",
+        class:"IT",
+        phone:"123456",
+        address:"baramati"
+    },
+    user4={
+        name:"pqr",
+        id:"5",
+        class:"IT",
+        phone:"123456",
+        address:"pune"
+    }
+
+];
+console.log(userDetail)
