@@ -15,7 +15,15 @@
 
         var emp = ["Smita", "Navin", "Jenny"];
         for (i = 0; i < emp.length; i++) {
-            document.write(emp[i] + "<br/>");
+            document.write(emp[i] + "<br>");
+        }
+        
+        // array of objects
+        var students=[{RollNo:1, name:"Ashwini", marks:20},{RollNo:2, name:"Seema", marks:40},{RollNo:3, name:"Jith", marks:30}]
+        var x="Array List";
+        document.write("<hr>" +x);
+        for (i = 0; i < students.length; i++) {
+            document.write( "<br>" +"Roll No.-"+students[i].RollNo +", "+"Name-"+students[i].name +", "+"Marks-"+students[i].marks);
         }
 
     </script>
