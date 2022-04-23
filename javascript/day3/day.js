@@ -1,11 +1,6 @@
-//+ button click function increment 
-//- button click function increment 
-// output bind with output div
-
 var data = 0;
 
-//   var test = document.getElementById("output").innerHTML;
-//   console.log(test);
+
 document.getElementById("output").innerText = data;
 //document.write(data);
 
@@ -13,8 +8,7 @@ function pluseOne() {
     data = data + 1;
     var inText = document.getElementById("output").innerText = data;
 
-    // alert("add one");
-    // console.log(inText);
+
 }
 
 function minusOne() {
@@ -34,11 +28,7 @@ function add() {
     multi = a * b;
     div = a / b;
     mod = a % b;
-    // document.getElementById("addition").value = addition;
-    // document.getElementById("sub").value = sub;
-    // document.getElementById("multi").value = multi;
-    // document.getElementById("div").value = div;
-    // document.getElementById("mod").value = mod;
+
 
     document.write("Addition is:" + addition);
     document.write("<br/>Substraction is:" + sub);

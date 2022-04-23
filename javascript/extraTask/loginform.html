@@ -41,14 +41,12 @@
     </div>
 
     <script>
-        userid = document.getElementById("logEmail").value;
-        pass = document.getElementById("logPass").value;
-
         function authentic() {
 
-            if (userid == "dmmane6@gmail.com" && pass == "dhanashri@123") {
-                // alert("Login successful");
-
+            var userid = document.getElementById("logEmail").value;
+            var pass = document.getElementById("logPass").value;
+            if (userid == "dmmane6@gmail.com" && pass == "dhanu@123") {
+                alert("Login successful");
                 window.open("welcome.html");
 
             } else {
@@ -56,12 +54,12 @@
             }
         }
         var clr = document.querySelector("#clear");
-        // clr.addEventListener('click', () => {
-        function clr() {
-            document.getElementById("clr").reset();
-        }
+        clr.addEventListener('click', () => {
 
-        // })
+            document.getElementById("clr").reset();
+
+
+        })
     </script>
 </body>
 
