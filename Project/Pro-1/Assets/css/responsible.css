@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+  .big-text {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .small-text {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  button {
+    border: none;
+    text-align: center;
+  }
+
+  .s1 {
+    background-color: black;
+    color: aliceblue;
+    size: 8px;
+    border: none;
+  }
+
+  .t1 {
+    width: 220px;
+    size: 8px;
+    height: 7px;
+  }
+
+}
