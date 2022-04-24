@@ -1,0 +1,20 @@
+.container{
+
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color:white;
+    text-align: center;
+}
+.image-fluid{
+    height: 200px;
+    width: 400px;
+}
