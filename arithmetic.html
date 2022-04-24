@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="condition_statement.css">
+    <link rel="stylesheet" href="arithmetic.css">
 </head>
 <body>
     <!-- if need to show the current date & time -->
@@ -29,12 +29,12 @@
                             <form class="row g-3">
                                 <div class="col-md-4">
                                     <label for="f1no" class="form-label">Enter your 1st Number</label>
-                                    <input type="text" class="form-control" id="f1no">
+                                    <input type="number" class="form-control" id="f1no">
                                 </div>
                                 <br/></br/>
                                 <div class="col-md-4">
                                     <label for="f2no" class="form-label">Enter your 2nd Number</label>
-                                    <input type="text" class="form-control" id="f2no">
+                                    <input type="number" class="form-control" id="f2no">
                                 </div>
                             </form>   
                                 <br/>
@@ -62,17 +62,17 @@
                             <form class="row g-3">
                                 <div class="col-md-4">
                                     <label for="g1no" class="form-label">Enter your 1st Number</label>
-                                    <input type="text" class="form-control" id="g1no">
+                                    <input type="number" class="form-control" id="g1no">
                                 </div>
                                 <br/></br/>
                                 <div class="col-md-4">
                                     <label for="g2no" class="form-label">Enter your 2nd Number</label>
-                                    <input type="text" class="form-control" id="g2no">
+                                    <input type="number" class="form-control" id="g2no">
                                 </div>
                                 <br/></br/>
                                 <div class="col-md-4">
                                     <label for="g3no" class="form-label">Enter your 3rd Number</label>
-                                    <input type="text" class="form-control" id="g3no">
+                                    <input type="number" class="form-control" id="g3no">
                                 </div>
                             </form> 
                             <br/>
@@ -91,8 +91,26 @@
                 </div>
             </div>
         </div> 
-
     <!-- end greater no -->
+
+    <!-- START array -->
+    <div class="section">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 array_row text-white">
+                    <p>Array Elements</p>
+                        <p id="array_container"></p>
+                        <button class = "btn push_btn" type="button" onclick="push()">Push</button>
+                        <button class = "btn push_btn" type="button" onclick="pop()">Pop</button>
+                        <button class = "btn push_btn" type="button" onclick="shift()">Shift </button>
+                        <button class = "btn push_btn" type="button" onclick="unshift()"> Unshift </button>
+                </div>
+                <div class="col-4 pb-5"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END array -->
 
     <script>
         // START arithmetic functions
@@ -143,17 +161,14 @@
 
 				if(num1>num2 && num1>num3)
 				{
-					// window.alert(num1+"-is greatest");
                     document.getElementById("greater_no").value = num1;
 				}
 				else if(num2>num1 && num2>num3)
 				{
-					// window.alert(num2+"-is greatst");
                     document.getElementById("greater_no").value = num2;
 				}
 				else if(num3>num1 && num3>num1)
 				{
-					// window.alert(num3+"is greatest");
                     document.getElementById("greater_no").value = num3;
 				}
 			}
@@ -168,23 +183,45 @@ function findSmallerNo() {
 
 				if(num1<num2 && num1<num3)
 				{
-					// window.alert(num1+"-is greatest");
                     document.getElementById("greater_no").value = num1;
 				}
 				else if(num2<num1 && num2<num3)
 				{
-					// window.alert(num2+"-is greatst");
                     document.getElementById("greater_no").value = num2;
 				}
 				else if(num3<num1 && num3<num1)
 				{
-					// window.alert(num3+"is greatest");
                     document.getElementById("greater_no").value = num3;
 				}
 			}
-
-
 // END smaller no function
+
+// START array
+            let array1 = ["Html5", "Css3", "JavaScript", "React"];
+            displayArrayElements();
+
+            function push() {
+                var inputValue = prompt("Enter your value to Push");
+                array1.push(inputValue);
+                displayArrayElements();
+            }
+            function pop() {
+                array1.pop();
+                displayArrayElements();
+            }
+            function shift() {
+                array1.shift();
+                displayArrayElements();
+            }
+            function unshift() {
+                var inputValue = prompt("Enter your value to Push");
+                array1.unshift(inputValue);
+                displayArrayElements();
+            }
+            function displayArrayElements() {
+                document.getElementById('array_container').innerHTML = array1.join(" , ");
+            }
+// END array
 
         </script>
 
