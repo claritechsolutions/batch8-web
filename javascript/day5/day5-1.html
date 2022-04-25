@@ -33,10 +33,9 @@
                   <option value="div">div</option>
                     <option value="mod">mod</option>
                 </select>
-                <select name="" id="conditional">
-                <option value="gt">greater than</option>
+                <select name="" id="conditional"> 
                 <option value="lt">less than</option>
-                <option value="equal">Equal</option>
+               
             </select>
                 <div class="form-grp mt-3">
                     <input type="button" value="submit" onclick="conditionalOp()">
@@ -77,20 +76,19 @@
                     document.getElementById("res").innerHTML = "Modules Is: " + result;
                     break;
             }
-            switch (d) {
-                case "gt":
-                    var result1 = a > b;
-                    document.getElementById("res1").innerHTML = "1st Number is greater than second: " + result1;
-                    break;
-                case "lt":
-                    var result1 = a < b;
-                    document.getElementById("res1").innerHTML = "1st Number is less than second: " + result1;
-                    break;
-                case "lt":
-                    var result1 = a = b;
-                    document.getElementById("res1").innerHTML = "1st Number is equal to second: " + result1;
-                    break;
+
+
+
+            if (a < b) {
+                document.getElementById("res1").innerHTML = "1st Number is less than second";
+            } else if (a > b) {
+                document.getElementById("res1").innerHTML = "1st Number is greater than second";
+            } else {
+                document.getElementById("res1").innerHTML = "1st Number is equal to second";
+
             }
+
+
         }
     </script>
 

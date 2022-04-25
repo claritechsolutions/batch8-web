@@ -9,21 +9,23 @@
 </head>
 
 <body>
-    <p id="para"></p>
-    <p id="para1"></p>
-    <p></p>
-    <p></p>
+    <p id="para"> welcome query selector</p>
+    <p id="para1"> demo1</p>
+    <p>demo2</p>
+    <p>demo3</p>
 
     <p id="para3">Welcome Javascript</p>
 
     <script>
-        var a = document.querySelector("p"); // returns only 1st matching element 
+        var a = document.querySelector("#para").innerText; // returns only 1st matching element 
         console.log(a);
 
         var b = document.querySelectorAll("p"); //return nodelist object in console
         console.log(b);
 
         b[0].innerHTML = "Demo";
+        b[0].style.color = "blue";
+        b[3].style.color = "red";
         b[1].innerHTML = "welcome"; //accessing nodes using index
 
         // var c = document.getElementById("para3");
