@@ -5,16 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="array.js"></script>
-    <style>
-        body{
-            font-size: 250%;
-            
-        }
-    </style>
+
+<style>
+    body{
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
 </head>
 <body>
-<h2></h2>
-     
+<h2>Arrays Condition</h2>
+<p id="demo">By using join()</p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="ademo"></p>
+<p id="bdemo"></p>
+
+<script>
+    const cars = ['Venue','Swift','Thar','Fortuner','Vegonar','Bugatti','BMW'];
+    document.getElementById("demo").innerText=  cars.join("*");
+    
+     document.getElementById("demo1").innerHTML = "Fourth car is" + (cars[3]);
+    document.getElementById("demo2").innerHTML = cars.pop();
+     document.getElementById("demo3").innerHTML = "###By using pop method###" + "<br>"+ cars;
+     document.getElementById("demo4").innerHTML =  cars.push("Creta");
+     document.getElementById("demo5").innerHTML = "###By using push method###" + "<br>"+ cars;
+     document.getElementById('demo6').innerHTML = cars;cars.shift();
+      document.getElementById('demo7').innerHTML = "$$$By using shift method$$$" + "<br>" + cars;
+      document.getElementById("ademo").innerHTML = cars;cars.unshift("i20");
+      document.getElementById("bdemo").innerHTML = "@@@By using unshift method@@@" + "<br>" + cars;
+
+
+    
+
+
+
+
+</script>
 </body>
 </html>
