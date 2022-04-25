@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="loginPage.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <style>
+    .split {
+      height: 50%;
+      width: 50%;
+      top: 10;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    .left {
+      left: 0;
+      background-color: rgb(170, 206, 122);
+    }
+    .right {
+      right: 0;
+      background-color: rgb(87, 109, 134);
+    }
+    .user {
+      display: flex;
+    }
+    
+  </style>
+  <h1>Login Page</h1>
+  <div class="user container-fluid">
+    <div class="container split left p-5">
+      <div class="row">
+        <label for="">User Name</label>
+        <input type="text" placeholder="Enter your emailID" id="uName">
+      </div>
+      <div class="row">
+        <label for="">Password</label>
+        <input type="password" id="password">
+      </div>
+      <div class="row ">
+        <button class="btn-dark" onclick="checklog()">Sign In </button>
+      </div>
+    </div>
+
+    <div class="container split right p-5">
+      <div class="row">
+        <label for="">User Name</label>
+        <input type="text" placeholder="Enter your emailID" id="uName1">
+      </div>
+      <div class="row">
+        <label for="">Password</label>
+        <input type="password" id="password1">
+      </div>
+      <div class="row ">
+        <button class="btn-dark" onclick="addlog()">Create a new Account</button>
+      </div>
+    </div>
+
+
+  </div>
+  <div>
+    <button class="btn-dark position-absolute ms-5" onclick="getall()">All Users</button>
+  </div>
+  <p id="out"></p>
+  <script src="loginPage.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
