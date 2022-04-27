@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="day6.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Local Storage Value
+        <span id="local"></span>
+    </h2>
+    <script>
+        document.write("For loop with if condition:");
+
+        for (let i = 0; i <= 10; i++) {
+            if (i % 2 == 0) {
+                document.write('<br>' + i);
+            }
+        }
+
+        document.write("<hr>");
+        document.write("Odd numbers using while loop:");
+        for (let i = 0; i <= 10; i++) {
+            while (i % 2 != 0) {
+                document.write('<br>' + i);
+                i++;
+            }
+        }
+
+
+        // for (let k = 0; k < 10; k++) {
+        //     if (k === 2 && k === 5) {
+        //         break;
+        //     }
+        //     document.write('<br>' +k);
+        // }
+        // document.write("outside loop")
+
+    </script>
+</body>
+
+</html>
