@@ -17,3 +17,12 @@ var c = dateobj.getFullYear();
 
 // Printing new year
 console.log(a + "/" + b + "/" + c);
+
+// var arr = ['claritech', 'solution', 'llp', 'pune', 'mumbai', 'kolkata'];
+
+// for (var i = 0; i < arr.length; i++) {
+//     if (i % 2 == 0) {
+//         console.log(arr[i]);
+//     }
+
+// }
