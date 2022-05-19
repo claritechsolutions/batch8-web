@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string_increment</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5 text-center">
+                
+                    <h1 class="h primary">String comparison and increment function</h1><br>
+                    First string:<input type="text" id="text1" value=""><br><br>
+                    Second string:<input type="text" id="text2" value=""><br><br>
+                    <button onclick="strcompare()">check me</button>
+                    <p id="result"></p>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function strcompare() {
+            var a = document.getElementById("text1");
+            var b = document.getElementById("text2");
+            if (a.length === b.length) {
+                document.getElementById("result").innerHTML = "true";
+            }
+            else {
+                document.getElementById("result").innerHTML = "false";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

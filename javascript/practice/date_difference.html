@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day diference between two dates</title>
+</head>
+<body>
+    <h2>Calculate days between dates</h2>
+    <label>Enter date1</label>
+    <input type="date" id="dateInput1">
+    <label>Enter date2</label>
+    <input type="date" id="dateInput2">
+    <button onclick="daysDifference()"> 
+        Calculate number of days 
+      </button> 
+      <h3 style="color:32A80F" id="result" ></h3> 
+      <script>
+          function  daysDifference(){
+          var dateI1= document.getElementById('dateInput1').value;
+          var dateI2= document.getElementById('dateInput2').value;
+        //calculate time difference
+        var date1 = new Date(dateI1);
+         var date2 = new Date(dateI2);
+ 
+         var time_difference = date2.getTime() - date1.getTime();
+
+         //calculate days difference by dividing total milliseconds in a day
+         var result = time_difference / (1000 * 60 * 60 * 24);
+
+         return document.getElementById("result").innerHTML =  
+              result + " days between both dates. ";
+                    }
+
+        
+      </script>
+</body>
+</html>

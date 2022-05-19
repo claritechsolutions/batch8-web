@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d-flex, center mt-3">
+      <button onclick="getCityData()">View city</button>
+      <button onclick="getStateData()">View State</button>
+      <button onclick="getstudentsData()">View Students</button>
+      <button onclick="getCountryData()">View country</button>
+    </div>
+
+     <div>
+      <button onclick="addCityData()">Add City</button>
+    </div>
+
+    <!-- <div>
+      state.forEach(state => {
+      <button onclick="updatestate(state.id)">Update State</button>
+      })
+    </div>  -->
+
+     <div>
+      <button onclick="deleteCity()">Delete City</button>
+    </div> 
+
+    <script src="./json_server.js"></script>
+  </body>
+</html>

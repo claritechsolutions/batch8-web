@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Successor number</h1>
+    <input type="number" id="num1">
+    <button onclick="fun1()">Next Number</button>
+    <p id="output-1"></p>
+    <h1>String length</h1>
+    <label for="">First String</label>
+    <input type="text" id="text1">
+    <label for="">Second String</label>
+    <input type="text" id="text2">
+    <button onclick="bclick()">Check string lengths</button>
+    <p id="output-2"></p>
+    <script>
+        function fun1() {
+            let a = document.getElementById("num1").value;
+            a++;
+            document.getElementById("output-1").innerHTML = a;
+
+        }
+
+
+        function bclick() {
+            var str1 = (document.getElementById("text1").value).length;
+            var str2 = (document.getElementById("text2").value).length;
+
+            if (str1 == str2) {
+                document.getElementById("output-2").innerHTML = "Equal length strings";
+            }
+            else {
+                document.getElementById("output-2").innerHTML ="string lengths are not equal";
+            }
+        }
+    </script>
+   
+</body>
+
+</html>

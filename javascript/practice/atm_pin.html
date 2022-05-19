@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM_PIN</title>
+</head>
+<body>
+    <input type="number" id="input">
+    <button onclick="f1()">click</button>
+    <p id="output"></p>
+<script>
+
+f1=()=>{
+    let a =document.getElementById('input').value;
+    if((a.length ==4)||(a.length ==6)){
+        document.getElementById('output').style.color ='green'
+        document.getElementById('output').innerHTML='Accepted PIN codes'
+
+    }else{
+        document.getElementById('output').style.color ='red'
+        document.getElementById('output').innerHTML ='Allow 4 or 6 digit PIN codes'
+    }
+}</script>
+</body>
+</html>

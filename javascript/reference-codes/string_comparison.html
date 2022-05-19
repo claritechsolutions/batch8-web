@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button onclick="compareStr()">Compare Strings</button>
+      <p id="test"></p>
+      <script>
+         function compareStr() {
+            var string1 = "World";
+            var string2 = "World";
+            var result = string1.localeCompare(string2);
+
+            document.getElementById("test").innerHTML = result;
+         }
+      </script>
+   </body>
+</html>

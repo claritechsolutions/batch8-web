@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function prom(complete){
+            return new Promise(function (resolve,reject){
+                setTimeout(function() {
+                    console.log("Hi i am in pending state");
+                    if(complete){
+                        resolve("i am successfull");
+                    }else{
+                        reject("i am failed");
+                    }
+                    
+                }, 5000);
+            })
+        }
+        prom(false).then(("result=>",result);
+            )
+        
+// function prom(complete){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(function() {
+//             console.log("Hi I am in pending state");
+//             if(complete){
+//                 resolve("I am successfull");
+//             }else{
+//                 reject("I am failed");
+//             }
+//         }, 5000);
+//     })
+// }
+// prom(false).then((result)=>{
+//     console.log("result=>",result);
+// }).catch((error)=>{console.log("error=>",error);})
+
+    </script>
+</body>
+</html>

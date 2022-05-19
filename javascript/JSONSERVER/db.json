@@ -1,0 +1,63 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Archana",
+      "branch": "E&TC",
+      "Divison": "A"
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "branch": "Civil",
+      "Divison": "B"
+    },
+    {
+      "id": 3,
+      "name": "Ojaswi",
+      "branch": "Electrical",
+      "Divison": "C"
+    }
+  ],
+  "city": [
+    {
+      "id": 1,
+      "name": "Pune"
+    },
+    {
+      "name": "Bombay",
+      "id": 2
+    },
+    {
+      "name": "Nashik",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Banglore"
+    },
+   
+  ],
+  "state": [
+    {
+      "id": 1,
+      "name": "Maharashtra"
+    },
+    {
+      "id": 2,
+      "name": "Gujarat"
+    },
+    {
+      "id": 3,
+      "name": "MP"
+    },
+    {
+      "id": 4,
+      "name": "Karnataka"
+    }
+  ],
+  "country": {
+    "id": 1,
+    "name": "India"
+  }
+}

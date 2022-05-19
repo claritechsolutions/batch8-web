@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     function stringcheck(){
+         let num = document.getElementById("firstname").value;
+         let num2 = document.getElementById("sdname").value;
+         if(num.length == num2.length){
+             document.getElementById("result").innerHTML= true;
+         }else {
+            document.getElementById("result").innerHTML= false;
+         }
+     }
+    function increse(){
+        let num = document.getElementById("input").value;
+        let num2 =  ++num;
+       document.getElementById("result1").innerHTML=num2;
+    }
+
+    </script>
+</head>
+<body>
+     first name : <input type="text" name="text" id="firstname"> <br><br>
+    second name : <input type="text" name="" id="sdname"> <br><br>
+    <button onclick="stringcheck()">check me</button>
+    <p id="result">Result -</p> 
+    <!-- ******************--------------*****************-------------------------------------------->
+
+    
+    Input : <input type="text" name="input" id="input"> <br><br>
+    <button onclick="increse()">Click</button> <br><br>
+    <p id="result1">Result -</p>
+</body>
+</html>
