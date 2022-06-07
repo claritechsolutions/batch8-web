@@ -1,44 +1,37 @@
 {
-    "students": [
+  "employees": [
     {
       "id": 1,
-      "name": "Archana",
-      "branch": "E&TC",
-      "Divison": "A"
+      "name": "Ankit",
+      "Salary": 12000,
+      "designation": "Developer"
     },
     {
       "id": 2,
-      "name": "Priya",
-      "branch": "Civil",
-      "Divison": "B"
-    },
-    {
-      "id": 3,
-      "name": "Ojaswi",
-      "branch": "Electrical",
-      "Divison": "C"
+      "name": "def",
+      "Salary": 22000,
+      "designation": "Tester"
     }
   ],
- "city":  [
+  "city": [
     {
       "id": 1,
       "name": "Pune"
     },
     {
-      "name": "Nashik",
+      "name": "Bombay",
+      "id": 2
+    },
+    {
+      "name": "Bombay",
       "id": 3
     },
     {
       "id": 4,
       "name": "Banglore"
-    },
-    {
-      "id": 6,
-      "name": "Pune"
     }
   ],
-
-"state":  [
+  "state": [
     {
       "id": 1,
       "name": "Maharashtra"
@@ -56,9 +49,8 @@
       "name": "Karnataka"
     }
   ],
-
- "country": {
+  "country": {
     "id": 1,
     "name": "India"
-  } 
- }
+  }
+}

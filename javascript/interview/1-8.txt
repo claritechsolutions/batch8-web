@@ -1,0 +1,136 @@
+1.WHAT IS ANY TYPE, AND WHEN TO USE IT? 
+
+==> # Any is a data type in TypeScript. 
+    # Any type is used when we deal with third# party programs.
+    # used when we dont hv knowledge of datatype of variable & want dynamic content from source.
+    # Any data type is used for type checking during compilation.
+    # for e.g
+            let temp: any;
+            temp = "string";
+            temp = 2;
+            temp = true;
+
+
+
+
+2. WHAT IS CLOSURE? 
+
+==> # closure is action that is inner function can have access to the outer function variables 
+    # as well as global variables.
+    # closure gives u access to an outer function scope in inner function.
+    # provide benefit of data hiding and data encapsulation(oops).
+    # for eg.
+            function outer(b) 
+            {
+                var a = "hello";    //a is local var created by outer function 
+                function inner()  // closure function
+                {
+                    return a + b;  //values of a and b are accessed from outer scope/parent function. 
+                }
+                return inner();      //output: helloworld
+            }
+            console.log(outer("world"));
+            
+            
+            
+
+3. WHAT ARE DATATYPE IN JAVASCRIPT? 
+
+==> # var,let,const --> same variable can be used to hold different data types.
+    # boolean       -->  return true or false
+    # string        -->  eg let a='hello'; let b="hello"; let c=`hello`;
+    # undefined     --> return when value is not assinged to var.
+    # null          -->  let a=null; then the type of a is object.
+    # NaN           --> return NaN when result of arithmetic op is not an number
+    for eg.
+        let naMe = 'abcd';
+        console.log(typeof(name1)); // returns "string"
+
+        let number = 1;
+        console.log(typeof(number)); //returns "number"
+
+        let valueChecked = true;
+        console.log(typeof(valueChecked)); //returns "boolean"
+
+        let a = null;
+        console.log(typeof(a)); // returns "object"
+
+        let b;
+        console.log(typeof(b)) //retrun undefined
+
+        let c = [];
+        console.log(typeof(c)) //return object
+
+        let num = 10;
+        let div = 0;
+        console.log(div = num / "hello");  //return NaN  
+        
+        
+        
+        
+
+4. WHAT IS VARIABLE TYPING? 
+
+==> # JavaScript is a loosely typed language(i.e. the variables are declared without a type).
+    # In JS, variable type is determined only when a value is assigned.
+    # reassign data of a different type to the same variable (accidentally or on purpose),
+      & the compiler will not generate an error.
+    # JS automatically adjust the datatype while assigning or reassigning the variables.
+
+    for eg:
+        var x;           // Now x is undefined
+        x = 5;           // Now x is a Number
+        x = "hello";      // Now x is a String
+        
+        
+        
+
+5.What is call back function in JS? 
+
+==> # A callback is a function passed as an argument to another function.
+    # A callback function can run after another function has finished
+    
+    # for eg.
+        let msg = () => {
+            console.log("this msg display after 5 second");
+        }
+        setTimeout(msg, 5000); //msg is a callback function
+
+
+
+
+
+6.WHAT IS SPLICE? HOW CAN I REPLACE CHARS INSIDE THE STRING? 
+
+==>	#  The splice() method is a built# in method for JavaScript Array objects.
+	#  It lets you change the content of your array by removing or replacing existing elements with 	 new ones. 
+	#  This method modifies the original array and returns the removed elements as a new array.
+	
+	
+	
+7.Solve 10+20+’30’ and ‘10’+20+30? 10 + '20' + 30
+ 
+==> 	# 10+20+'30'     // 3030
+	# '10'+20+30? 10 + '20' + 30  	 //SyntaxError: Invalid or unexpected token
+	# '10'+20+30/ 10 + '20' + 30  	//102032030
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
